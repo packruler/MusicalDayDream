@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clock_metadata_margin_sides">300dp</dimen>
+</resources>

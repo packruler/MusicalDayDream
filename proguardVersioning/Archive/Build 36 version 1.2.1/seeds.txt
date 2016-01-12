@@ -1,0 +1,1012 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SwipeRefreshLayout: void setOnRefreshListener(android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener)
+android.support.v4.widget.SwipeRefreshLayout: void setTriggerPercentage(float)
+android.support.v4.widget.SwipeRefreshLayout: void setRefreshing(boolean)
+android.support.v4.widget.SwipeRefreshLayout: void setTargetOffsetTopAndBottom(int)
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode[] values()
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode valueOf(java.lang.String)
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender[] values()
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender valueOf(java.lang.String)
+com.google.android.gms.R$attr: int adSize
+com.google.android.gms.R$attr: int adSizes
+com.google.android.gms.R$attr: int adUnitId
+com.google.android.gms.R$attr: int cameraBearing
+com.google.android.gms.R$attr: int cameraTargetLat
+com.google.android.gms.R$attr: int cameraTargetLng
+com.google.android.gms.R$attr: int cameraTilt
+com.google.android.gms.R$attr: int cameraZoom
+com.google.android.gms.R$attr: int mapType
+com.google.android.gms.R$attr: int uiCompass
+com.google.android.gms.R$attr: int uiRotateGestures
+com.google.android.gms.R$attr: int uiScrollGestures
+com.google.android.gms.R$attr: int uiTiltGestures
+com.google.android.gms.R$attr: int uiZoomControls
+com.google.android.gms.R$attr: int uiZoomGestures
+com.google.android.gms.R$attr: int useViewLifecycle
+com.google.android.gms.R$attr: int zOrderOnTop
+com.google.android.gms.R$color: int common_action_bar_splitter
+com.google.android.gms.R$color: int common_signin_btn_dark_text_default
+com.google.android.gms.R$color: int common_signin_btn_dark_text_disabled
+com.google.android.gms.R$color: int common_signin_btn_dark_text_focused
+com.google.android.gms.R$color: int common_signin_btn_dark_text_pressed
+com.google.android.gms.R$color: int common_signin_btn_default_background
+com.google.android.gms.R$color: int common_signin_btn_light_text_default
+com.google.android.gms.R$color: int common_signin_btn_light_text_disabled
+com.google.android.gms.R$color: int common_signin_btn_light_text_focused
+com.google.android.gms.R$color: int common_signin_btn_light_text_pressed
+com.google.android.gms.R$color: int common_signin_btn_text_dark
+com.google.android.gms.R$color: int common_signin_btn_text_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_normal_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_normal_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_pressed_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_pressed_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_normal_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_normal_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_pressed_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_pressed_light
+com.google.android.gms.R$drawable: int ic_plusone_medium_off_client
+com.google.android.gms.R$drawable: int ic_plusone_small_off_client
+com.google.android.gms.R$drawable: int ic_plusone_standard_off_client
+com.google.android.gms.R$drawable: int ic_plusone_tall_off_client
+com.google.android.gms.R$id: int hybrid
+com.google.android.gms.R$id: int none
+com.google.android.gms.R$id: int normal
+com.google.android.gms.R$id: int satellite
+com.google.android.gms.R$id: int terrain
+com.google.android.gms.R$integer: int google_play_services_version
+com.google.android.gms.R$string: int auth_client_needs_enabling_title
+com.google.android.gms.R$string: int auth_client_needs_installation_title
+com.google.android.gms.R$string: int auth_client_needs_update_title
+com.google.android.gms.R$string: int auth_client_play_services_err_notification_msg
+com.google.android.gms.R$string: int auth_client_requested_by_msg
+com.google.android.gms.R$string: int auth_client_using_bad_version_title
+com.google.android.gms.R$string: int common_google_play_services_enable_button
+com.google.android.gms.R$string: int common_google_play_services_enable_text
+com.google.android.gms.R$string: int common_google_play_services_enable_title
+com.google.android.gms.R$string: int common_google_play_services_install_button
+com.google.android.gms.R$string: int common_google_play_services_install_text_phone
+com.google.android.gms.R$string: int common_google_play_services_install_text_tablet
+com.google.android.gms.R$string: int common_google_play_services_install_title
+com.google.android.gms.R$string: int common_google_play_services_invalid_account_text
+com.google.android.gms.R$string: int common_google_play_services_invalid_account_title
+com.google.android.gms.R$string: int common_google_play_services_network_error_text
+com.google.android.gms.R$string: int common_google_play_services_network_error_title
+com.google.android.gms.R$string: int common_google_play_services_unknown_issue
+com.google.android.gms.R$string: int common_google_play_services_unsupported_date_text
+com.google.android.gms.R$string: int common_google_play_services_unsupported_text
+com.google.android.gms.R$string: int common_google_play_services_unsupported_title
+com.google.android.gms.R$string: int common_google_play_services_update_button
+com.google.android.gms.R$string: int common_google_play_services_update_text
+com.google.android.gms.R$string: int common_google_play_services_update_title
+com.google.android.gms.R$string: int common_signin_button_text
+com.google.android.gms.R$string: int common_signin_button_text_long
+com.google.android.gms.R$string: int location_client_powered_by_google
+com.google.android.gms.R$styleable: int[] AdsAttrs
+com.google.android.gms.R$styleable: int AdsAttrs_adSize
+com.google.android.gms.R$styleable: int AdsAttrs_adSizes
+com.google.android.gms.R$styleable: int AdsAttrs_adUnitId
+com.google.android.gms.R$styleable: int[] MapAttrs
+com.google.android.gms.R$styleable: int MapAttrs_cameraBearing
+com.google.android.gms.R$styleable: int MapAttrs_cameraTargetLat
+com.google.android.gms.R$styleable: int MapAttrs_cameraTargetLng
+com.google.android.gms.R$styleable: int MapAttrs_cameraTilt
+com.google.android.gms.R$styleable: int MapAttrs_cameraZoom
+com.google.android.gms.R$styleable: int MapAttrs_mapType
+com.google.android.gms.R$styleable: int MapAttrs_uiCompass
+com.google.android.gms.R$styleable: int MapAttrs_uiRotateGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiScrollGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiTiltGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiZoomControls
+com.google.android.gms.R$styleable: int MapAttrs_uiZoomGestures
+com.google.android.gms.R$styleable: int MapAttrs_useViewLifecycle
+com.google.android.gms.R$styleable: int MapAttrs_zOrderOnTop
+com.google.android.gms.ads.AdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.AdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.AdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.AdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.AdView: void setAdSize(com.google.android.gms.ads.AdSize)
+com.google.android.gms.ads.AdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdSize[] getAdSizes()
+com.google.android.gms.ads.doubleclick.PublisherAdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.doubleclick.AppEventListener getAppEventListener()
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAdSizes(com.google.android.gms.ads.AdSize[])
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAppEventListener(com.google.android.gms.ads.doubleclick.AppEventListener)
+com.google.android.gms.ads.search.SearchAdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.search.SearchAdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.search.SearchAdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.search.SearchAdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.search.SearchAdView: void setAdSize(com.google.android.gms.ads.AdSize)
+com.google.android.gms.ads.search.SearchAdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.analytics.s$a: com.google.android.gms.analytics.s$a[] values()
+com.google.android.gms.analytics.s$a: com.google.android.gms.analytics.s$a valueOf(java.lang.String)
+com.google.android.gms.analytics.u$a: com.google.android.gms.analytics.u$a[] values()
+com.google.android.gms.analytics.u$a: com.google.android.gms.analytics.u$a valueOf(java.lang.String)
+com.google.android.gms.cast.ApplicationMetadata
+com.google.android.gms.cast.ApplicationMetadata: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.cast.CastDevice
+com.google.android.gms.cast.CastDevice: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.SignInButton: void setSize(int)
+com.google.android.gms.common.SignInButton: void setColorScheme(int)
+com.google.android.gms.common.SignInButton: void setOnClickListener(android.view.View$OnClickListener)
+com.google.android.gms.common.SignInButton: void setEnabled(boolean)
+com.google.android.gms.common.api.Status
+com.google.android.gms.common.api.Status: com.google.android.gms.common.api.StatusCreator CREATOR
+com.google.android.gms.common.data.DataHolder
+com.google.android.gms.common.data.DataHolder: com.google.android.gms.common.data.DataHolderCreator CREATOR
+com.google.android.gms.common.images.ImageManager$ImageReceiver
+com.google.android.gms.common.images.WebImage
+com.google.android.gms.common.images.WebImage: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.internal.safeparcel.SafeParcelable
+com.google.android.gms.common.internal.safeparcel.SafeParcelable: java.lang.String NULL
+com.google.android.gms.drive.Contents
+com.google.android.gms.drive.Contents: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.DriveId
+com.google.android.gms.drive.DriveId: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.events.ChangeEvent
+com.google.android.gms.drive.events.ChangeEvent: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.events.ConflictEvent
+com.google.android.gms.drive.events.ConflictEvent: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.events.DriveEvent
+com.google.android.gms.drive.events.ResourceEvent
+com.google.android.gms.drive.internal.AddEventListenerRequest
+com.google.android.gms.drive.internal.AddEventListenerRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.AuthorizeAccessRequest
+com.google.android.gms.drive.internal.AuthorizeAccessRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CloseContentsAndUpdateMetadataRequest
+com.google.android.gms.drive.internal.CloseContentsAndUpdateMetadataRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CloseContentsRequest
+com.google.android.gms.drive.internal.CloseContentsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CreateContentsRequest
+com.google.android.gms.drive.internal.CreateContentsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CreateFileIntentSenderRequest
+com.google.android.gms.drive.internal.CreateFileIntentSenderRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CreateFileRequest
+com.google.android.gms.drive.internal.CreateFileRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CreateFolderRequest
+com.google.android.gms.drive.internal.CreateFolderRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.DisconnectRequest
+com.google.android.gms.drive.internal.DisconnectRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.GetMetadataRequest
+com.google.android.gms.drive.internal.GetMetadataRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.ListParentsRequest
+com.google.android.gms.drive.internal.ListParentsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnContentsResponse
+com.google.android.gms.drive.internal.OnContentsResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnDownloadProgressResponse
+com.google.android.gms.drive.internal.OnDownloadProgressResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnDriveIdResponse
+com.google.android.gms.drive.internal.OnDriveIdResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnEventResponse
+com.google.android.gms.drive.internal.OnEventResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnListEntriesResponse
+com.google.android.gms.drive.internal.OnListEntriesResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnListParentsResponse
+com.google.android.gms.drive.internal.OnListParentsResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnMetadataResponse
+com.google.android.gms.drive.internal.OnMetadataResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OpenContentsRequest
+com.google.android.gms.drive.internal.OpenContentsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OpenFileIntentSenderRequest
+com.google.android.gms.drive.internal.OpenFileIntentSenderRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.QueryRequest
+com.google.android.gms.drive.internal.QueryRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.RemoveEventListenerRequest
+com.google.android.gms.drive.internal.RemoveEventListenerRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.TrashResourceRequest
+com.google.android.gms.drive.internal.TrashResourceRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.UpdateMetadataRequest
+com.google.android.gms.drive.internal.UpdateMetadataRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.metadata.internal.MetadataBundle
+com.google.android.gms.drive.metadata.internal.MetadataBundle: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.Query
+com.google.android.gms.drive.query.Query: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.ComparisonFilter
+com.google.android.gms.drive.query.internal.ComparisonFilter: com.google.android.gms.drive.query.internal.a CREATOR
+com.google.android.gms.drive.query.internal.FieldOnlyFilter
+com.google.android.gms.drive.query.internal.FieldOnlyFilter: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.FilterHolder
+com.google.android.gms.drive.query.internal.FilterHolder: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.InFilter
+com.google.android.gms.drive.query.internal.InFilter: com.google.android.gms.drive.query.internal.e CREATOR
+com.google.android.gms.drive.query.internal.LogicalFilter
+com.google.android.gms.drive.query.internal.LogicalFilter: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.NotFilter
+com.google.android.gms.drive.query.internal.NotFilter: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.Operator
+com.google.android.gms.drive.query.internal.Operator: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.Game
+com.google.android.gms.games.GameEntity
+com.google.android.gms.games.GameEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.Player
+com.google.android.gms.games.PlayerEntity
+com.google.android.gms.games.PlayerEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.b
+com.google.android.gms.games.d
+com.google.android.gms.games.multiplayer.Invitation
+com.google.android.gms.games.multiplayer.InvitationEntity
+com.google.android.gms.games.multiplayer.InvitationEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.Participant
+com.google.android.gms.games.multiplayer.ParticipantEntity
+com.google.android.gms.games.multiplayer.ParticipantEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.ParticipantResult
+com.google.android.gms.games.multiplayer.ParticipantResult: com.google.android.gms.games.multiplayer.ParticipantResultCreator CREATOR
+com.google.android.gms.games.multiplayer.b
+com.google.android.gms.games.multiplayer.d
+com.google.android.gms.games.multiplayer.realtime.RealTimeMessage
+com.google.android.gms.games.multiplayer.realtime.RealTimeMessage: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.realtime.Room
+com.google.android.gms.games.multiplayer.realtime.RoomEntity
+com.google.android.gms.games.multiplayer.realtime.RoomEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.realtime.c
+com.google.android.gms.games.multiplayer.turnbased.TurnBasedMatch
+com.google.android.gms.games.multiplayer.turnbased.TurnBasedMatchEntity
+com.google.android.gms.games.multiplayer.turnbased.TurnBasedMatchEntity: com.google.android.gms.games.multiplayer.turnbased.TurnBasedMatchEntityCreator CREATOR
+com.google.android.gms.games.multiplayer.turnbased.a
+com.google.android.gms.games.request.GameRequest
+com.google.android.gms.games.request.GameRequestEntity
+com.google.android.gms.games.request.GameRequestEntity: com.google.android.gms.games.request.GameRequestEntityCreator CREATOR
+com.google.android.gms.games.request.a
+com.google.android.gms.identity.intents.UserAddressRequest
+com.google.android.gms.identity.intents.UserAddressRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.identity.intents.model.CountrySpecification
+com.google.android.gms.identity.intents.model.CountrySpecification: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.identity.intents.model.UserAddress
+com.google.android.gms.identity.intents.model.UserAddress: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.a: com.google.android.gms.internal.a[] values()
+com.google.android.gms.internal.a: com.google.android.gms.internal.a valueOf(java.lang.String)
+com.google.android.gms.internal.ab
+com.google.android.gms.internal.ab: com.google.android.gms.internal.ac CREATOR
+com.google.android.gms.internal.am
+com.google.android.gms.internal.am: com.google.android.gms.internal.an CREATOR
+com.google.android.gms.internal.b: com.google.android.gms.internal.b[] values()
+com.google.android.gms.internal.b: com.google.android.gms.internal.b valueOf(java.lang.String)
+com.google.android.gms.internal.bn
+com.google.android.gms.internal.bn: com.google.android.gms.internal.bm CREATOR
+com.google.android.gms.internal.bq
+com.google.android.gms.internal.bq: com.google.android.gms.internal.bp CREATOR
+com.google.android.gms.internal.cd
+com.google.android.gms.internal.cd: com.google.android.gms.internal.ce CREATOR
+com.google.android.gms.internal.cf
+com.google.android.gms.internal.cf: com.google.android.gms.internal.cg CREATOR
+com.google.android.gms.internal.db
+com.google.android.gms.internal.db: com.google.android.gms.internal.dc CREATOR
+com.google.android.gms.internal.dd: void setContext(android.content.Context)
+com.google.android.gms.internal.di
+com.google.android.gms.internal.di: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.do: com.google.android.gms.internal.do[] values()
+com.google.android.gms.internal.do: com.google.android.gms.internal.do valueOf(java.lang.String)
+com.google.android.gms.internal.ee$a
+com.google.android.gms.internal.ee$a: com.google.android.gms.internal.eq CREATOR
+com.google.android.gms.internal.eg
+com.google.android.gms.internal.ew
+com.google.android.gms.internal.ew: com.google.android.gms.internal.ex CREATOR
+com.google.android.gms.internal.ey
+com.google.android.gms.internal.ey: com.google.android.gms.internal.ez CREATOR
+com.google.android.gms.internal.ey$a
+com.google.android.gms.internal.ey$a: com.google.android.gms.internal.fa CREATOR
+com.google.android.gms.internal.fb$a
+com.google.android.gms.internal.fb$a: com.google.android.gms.internal.fc CREATOR
+com.google.android.gms.internal.fe
+com.google.android.gms.internal.fe: com.google.android.gms.internal.ff CREATOR
+com.google.android.gms.internal.fe$a
+com.google.android.gms.internal.fe$a: com.google.android.gms.internal.fg CREATOR
+com.google.android.gms.internal.fe$b
+com.google.android.gms.internal.fe$b: com.google.android.gms.internal.fd CREATOR
+com.google.android.gms.internal.fh
+com.google.android.gms.internal.fh: com.google.android.gms.internal.fi CREATOR
+com.google.android.gms.internal.fy
+com.google.android.gms.internal.gy
+com.google.android.gms.internal.gy: com.google.android.gms.internal.gx CREATOR
+com.google.android.gms.internal.gz
+com.google.android.gms.internal.gz: com.google.android.gms.internal.ha CREATOR
+com.google.android.gms.internal.hj
+com.google.android.gms.internal.hj: com.google.android.gms.internal.hk CREATOR
+com.google.android.gms.internal.hn
+com.google.android.gms.internal.hn: com.google.android.gms.internal.ho CREATOR
+com.google.android.gms.internal.hp
+com.google.android.gms.internal.hp: com.google.android.gms.internal.hq CREATOR
+com.google.android.gms.internal.hr
+com.google.android.gms.internal.hr: com.google.android.gms.internal.hs CREATOR
+com.google.android.gms.internal.ht
+com.google.android.gms.internal.ht: com.google.android.gms.internal.hu CREATOR
+com.google.android.gms.internal.hx
+com.google.android.gms.internal.hx: com.google.android.gms.internal.hy CREATOR
+com.google.android.gms.internal.hx$a
+com.google.android.gms.internal.hx$a: com.google.android.gms.internal.hw CREATOR
+com.google.android.gms.internal.hz
+com.google.android.gms.internal.hz: com.google.android.gms.internal.ia CREATOR
+com.google.android.gms.internal.id
+com.google.android.gms.internal.id: com.google.android.gms.internal.ie CREATOR
+com.google.android.gms.internal.im
+com.google.android.gms.internal.im: com.google.android.gms.internal.in CREATOR
+com.google.android.gms.internal.io
+com.google.android.gms.internal.io: com.google.android.gms.internal.ip CREATOR
+com.google.android.gms.internal.ir
+com.google.android.gms.internal.ir: com.google.android.gms.internal.is CREATOR
+com.google.android.gms.internal.ir$a
+com.google.android.gms.internal.ir$a: com.google.android.gms.internal.it CREATOR
+com.google.android.gms.internal.ir$b
+com.google.android.gms.internal.ir$b: com.google.android.gms.internal.iu CREATOR
+com.google.android.gms.internal.ir$b$a
+com.google.android.gms.internal.ir$b$a: com.google.android.gms.internal.iv CREATOR
+com.google.android.gms.internal.ir$b$b
+com.google.android.gms.internal.ir$b$b: com.google.android.gms.internal.iw CREATOR
+com.google.android.gms.internal.ir$c
+com.google.android.gms.internal.ir$c: com.google.android.gms.internal.ix CREATOR
+com.google.android.gms.internal.ir$d
+com.google.android.gms.internal.ir$d: com.google.android.gms.internal.iy CREATOR
+com.google.android.gms.internal.ir$f
+com.google.android.gms.internal.ir$f: com.google.android.gms.internal.iz CREATOR
+com.google.android.gms.internal.ir$g
+com.google.android.gms.internal.ir$g: com.google.android.gms.internal.ja CREATOR
+com.google.android.gms.internal.ir$h
+com.google.android.gms.internal.ir$h: com.google.android.gms.internal.jb CREATOR
+com.google.android.gms.internal.jh
+com.google.android.gms.internal.jh: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.jj
+com.google.android.gms.internal.jj: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.jl
+com.google.android.gms.internal.jl: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.jm
+com.google.android.gms.internal.jm: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.jp
+com.google.android.gms.internal.jp: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.jr
+com.google.android.gms.internal.jr: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.jt
+com.google.android.gms.internal.jt: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.jv
+com.google.android.gms.internal.jv: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.z
+com.google.android.gms.internal.z: com.google.android.gms.internal.aa CREATOR
+com.google.android.gms.location.ActivityRecognitionResult
+com.google.android.gms.location.ActivityRecognitionResult: com.google.android.gms.location.ActivityRecognitionResultCreator CREATOR
+com.google.android.gms.location.DetectedActivity
+com.google.android.gms.location.DetectedActivity: com.google.android.gms.location.DetectedActivityCreator CREATOR
+com.google.android.gms.location.LocationRequest
+com.google.android.gms.location.LocationRequest: com.google.android.gms.location.LocationRequestCreator CREATOR
+com.google.android.gms.location.b
+com.google.android.gms.location.b: com.google.android.gms.location.c CREATOR
+com.google.android.gms.maps.GoogleMapOptions
+com.google.android.gms.maps.GoogleMapOptions: com.google.android.gms.maps.GoogleMapOptionsCreator CREATOR
+com.google.android.gms.maps.MapView: com.google.android.gms.maps.GoogleMap getMap()
+com.google.android.gms.maps.model.CameraPosition
+com.google.android.gms.maps.model.CameraPosition: com.google.android.gms.maps.model.CameraPositionCreator CREATOR
+com.google.android.gms.maps.model.CircleOptions
+com.google.android.gms.maps.model.CircleOptions: com.google.android.gms.maps.model.CircleOptionsCreator CREATOR
+com.google.android.gms.maps.model.GroundOverlayOptions
+com.google.android.gms.maps.model.GroundOverlayOptions: com.google.android.gms.maps.model.GroundOverlayOptionsCreator CREATOR
+com.google.android.gms.maps.model.LatLng
+com.google.android.gms.maps.model.LatLng: com.google.android.gms.maps.model.LatLngCreator CREATOR
+com.google.android.gms.maps.model.LatLngBounds
+com.google.android.gms.maps.model.LatLngBounds: com.google.android.gms.maps.model.LatLngBoundsCreator CREATOR
+com.google.android.gms.maps.model.MarkerOptions
+com.google.android.gms.maps.model.MarkerOptions: com.google.android.gms.maps.model.MarkerOptionsCreator CREATOR
+com.google.android.gms.maps.model.PolygonOptions
+com.google.android.gms.maps.model.PolygonOptions: com.google.android.gms.maps.model.PolygonOptionsCreator CREATOR
+com.google.android.gms.maps.model.PolylineOptions
+com.google.android.gms.maps.model.PolylineOptions: com.google.android.gms.maps.model.PolylineOptionsCreator CREATOR
+com.google.android.gms.maps.model.Tile
+com.google.android.gms.maps.model.Tile: com.google.android.gms.maps.model.TileCreator CREATOR
+com.google.android.gms.maps.model.TileOverlayOptions
+com.google.android.gms.maps.model.TileOverlayOptions: com.google.android.gms.maps.model.TileOverlayOptionsCreator CREATOR
+com.google.android.gms.maps.model.VisibleRegion
+com.google.android.gms.maps.model.VisibleRegion: com.google.android.gms.maps.model.VisibleRegionCreator CREATOR
+com.google.android.gms.plus.PlusOneButton: void setOnPlusOneClickListener(com.google.android.gms.plus.PlusOneButton$OnPlusOneClickListener)
+com.google.android.gms.plus.PlusOneButton: void setAnnotation(int)
+com.google.android.gms.plus.PlusOneButton: void setSize(int)
+com.google.android.gms.plus.internal.PlusCommonExtras
+com.google.android.gms.plus.internal.PlusCommonExtras: com.google.android.gms.plus.internal.f CREATOR
+com.google.android.gms.plus.internal.h
+com.google.android.gms.plus.internal.h: com.google.android.gms.plus.internal.j CREATOR
+com.google.android.gms.tagmanager.az$a: com.google.android.gms.tagmanager.az$a[] values()
+com.google.android.gms.tagmanager.az$a: com.google.android.gms.tagmanager.az$a valueOf(java.lang.String)
+com.google.android.gms.tagmanager.bg$a: com.google.android.gms.tagmanager.bg$a[] values()
+com.google.android.gms.tagmanager.bg$a: com.google.android.gms.tagmanager.bg$a valueOf(java.lang.String)
+com.google.android.gms.tagmanager.ce$a: com.google.android.gms.tagmanager.ce$a[] values()
+com.google.android.gms.tagmanager.ce$a: com.google.android.gms.tagmanager.ce$a valueOf(java.lang.String)
+com.google.android.gms.wallet.Address
+com.google.android.gms.wallet.Address: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.Cart
+com.google.android.gms.wallet.Cart: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.CountrySpecification
+com.google.android.gms.wallet.CountrySpecification: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.FullWallet
+com.google.android.gms.wallet.FullWallet: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.FullWalletRequest
+com.google.android.gms.wallet.FullWalletRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.InstrumentInfo
+com.google.android.gms.wallet.InstrumentInfo: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.LineItem
+com.google.android.gms.wallet.LineItem: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.LoyaltyWalletObject
+com.google.android.gms.wallet.LoyaltyWalletObject: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.MaskedWallet
+com.google.android.gms.wallet.MaskedWallet: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.MaskedWalletRequest
+com.google.android.gms.wallet.MaskedWalletRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.NotifyTransactionStatusRequest
+com.google.android.gms.wallet.NotifyTransactionStatusRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.OfferWalletObject
+com.google.android.gms.wallet.OfferWalletObject: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.ProxyCard
+com.google.android.gms.wallet.ProxyCard: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.d
+com.google.android.gms.wallet.d: android.os.Parcelable$Creator CREATOR
+com.packruler.musicaldaydream.release.DaydreamSettings
+com.packruler.musicaldaydream.release.DaydreamSettings: DaydreamSettings()
+com.packruler.musicaldaydream.release.DaydreamSettings: void launchSecuritySettings()
+com.packruler.musicaldaydream.release.DaydreamSettings: void launchDaydreamSettings()
+com.packruler.musicaldaydream.release.FirstTimeSetup
+com.packruler.musicaldaydream.release.FirstTimeSetup: FirstTimeSetup()
+com.packruler.musicaldaydream.release.FirstTimeSetup: void launchSecuritySettings()
+com.packruler.musicaldaydream.release.FirstTimeSetup: void launchSecuritySettings(android.view.View)
+com.packruler.musicaldaydream.release.FirstTimeSetup: void launchDaydreamSettings()
+com.packruler.musicaldaydream.release.FirstTimeSetup: void launchDaydreamSettings(android.view.View)
+com.packruler.musicaldaydream.release.FirstTimeSetup: void linkToMarket(android.view.View)
+com.packruler.musicaldaydream.release.ListenerService
+com.packruler.musicaldaydream.release.ListenerService: ListenerService()
+com.packruler.musicaldaydream.release.MusicalDaydreamService
+com.packruler.musicaldaydream.release.MusicalDaydreamService: MusicalDaydreamService()
+com.packruler.musicaldaydream.release.MusicalDaydreamService: void playPause(android.view.View)
+com.packruler.musicaldaydream.release.MusicalDaydreamService: void skipBack(android.view.View)
+com.packruler.musicaldaydream.release.MusicalDaydreamService: void skipForward(android.view.View)
+com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+com.packruler.musicaldaydream.release.NumberPickerDialogPreference: NumberPickerDialogPreference(android.content.Context)
+com.packruler.musicaldaydream.release.NumberPickerDialogPreference: NumberPickerDialogPreference(android.content.Context,android.util.AttributeSet)
+com.packruler.musicaldaydream.release.NumberPickerDialogPreference$SavedState
+com.packruler.musicaldaydream.release.NumberPickerDialogPreference$SavedState: android.os.Parcelable$Creator CREATOR
+com.packruler.musicaldaydream.release.R$array: int clock_theme_preference
+com.packruler.musicaldaydream.release.R$array: int control_theme_preference
+com.packruler.musicaldaydream.release.R$array: int metadata_theme_preference
+com.packruler.musicaldaydream.release.R$array: int progress_theme_preference
+com.packruler.musicaldaydream.release.R$attr: int adSize
+com.packruler.musicaldaydream.release.R$attr: int adSizes
+com.packruler.musicaldaydream.release.R$attr: int adUnitId
+com.packruler.musicaldaydream.release.R$attr: int animation_duration_max
+com.packruler.musicaldaydream.release.R$attr: int animation_duration_min
+com.packruler.musicaldaydream.release.R$attr: int cameraBearing
+com.packruler.musicaldaydream.release.R$attr: int cameraTargetLat
+com.packruler.musicaldaydream.release.R$attr: int cameraTargetLng
+com.packruler.musicaldaydream.release.R$attr: int cameraTilt
+com.packruler.musicaldaydream.release.R$attr: int cameraZoom
+com.packruler.musicaldaydream.release.R$attr: int mapType
+com.packruler.musicaldaydream.release.R$attr: int metaButtonBarButtonStyle
+com.packruler.musicaldaydream.release.R$attr: int metaButtonBarStyle
+com.packruler.musicaldaydream.release.R$attr: int uiCompass
+com.packruler.musicaldaydream.release.R$attr: int uiRotateGestures
+com.packruler.musicaldaydream.release.R$attr: int uiScrollGestures
+com.packruler.musicaldaydream.release.R$attr: int uiTiltGestures
+com.packruler.musicaldaydream.release.R$attr: int uiZoomControls
+com.packruler.musicaldaydream.release.R$attr: int uiZoomGestures
+com.packruler.musicaldaydream.release.R$attr: int useViewLifecycle
+com.packruler.musicaldaydream.release.R$attr: int zOrderOnTop
+com.packruler.musicaldaydream.release.R$color: int black_overlay
+com.packruler.musicaldaydream.release.R$color: int clock_color
+com.packruler.musicaldaydream.release.R$color: int common_action_bar_splitter
+com.packruler.musicaldaydream.release.R$color: int common_signin_btn_dark_text_default
+com.packruler.musicaldaydream.release.R$color: int common_signin_btn_dark_text_disabled
+com.packruler.musicaldaydream.release.R$color: int common_signin_btn_dark_text_focused
+com.packruler.musicaldaydream.release.R$color: int common_signin_btn_dark_text_pressed
+com.packruler.musicaldaydream.release.R$color: int common_signin_btn_default_background
+com.packruler.musicaldaydream.release.R$color: int common_signin_btn_light_text_default
+com.packruler.musicaldaydream.release.R$color: int common_signin_btn_light_text_disabled
+com.packruler.musicaldaydream.release.R$color: int common_signin_btn_light_text_focused
+com.packruler.musicaldaydream.release.R$color: int common_signin_btn_light_text_pressed
+com.packruler.musicaldaydream.release.R$color: int common_signin_btn_text_dark
+com.packruler.musicaldaydream.release.R$color: int common_signin_btn_text_light
+com.packruler.musicaldaydream.release.R$color: int green_color
+com.packruler.musicaldaydream.release.R$color: int holo_color
+com.packruler.musicaldaydream.release.R$color: int notification_display_background
+com.packruler.musicaldaydream.release.R$color: int purple_color
+com.packruler.musicaldaydream.release.R$color: int red_color
+com.packruler.musicaldaydream.release.R$color: int text_shadow
+com.packruler.musicaldaydream.release.R$color: int white_color
+com.packruler.musicaldaydream.release.R$color: int yellow_color
+com.packruler.musicaldaydream.release.R$dimen: int activity_horizontal_margin
+com.packruler.musicaldaydream.release.R$dimen: int activity_vertical_margin
+com.packruler.musicaldaydream.release.R$dimen: int album_artist_text
+com.packruler.musicaldaydream.release.R$dimen: int clock_metadata_margin_sides
+com.packruler.musicaldaydream.release.R$dimen: int clock_metadata_width
+com.packruler.musicaldaydream.release.R$dimen: int clock_text_size
+com.packruler.musicaldaydream.release.R$dimen: int metadata_clock_margin
+com.packruler.musicaldaydream.release.R$dimen: int music_control_size
+com.packruler.musicaldaydream.release.R$dimen: int notification_display_size
+com.packruler.musicaldaydream.release.R$dimen: int notification_display_text_size
+com.packruler.musicaldaydream.release.R$dimen: int notification_icon_size
+com.packruler.musicaldaydream.release.R$dimen: int notification_panel_height
+com.packruler.musicaldaydream.release.R$dimen: int progress_bar_height
+com.packruler.musicaldaydream.release.R$dimen: int progress_padding
+com.packruler.musicaldaydream.release.R$dimen: int swipe_top_margin
+com.packruler.musicaldaydream.release.R$dimen: int track_position_text_size
+com.packruler.musicaldaydream.release.R$dimen: int track_text
+com.packruler.musicaldaydream.release.R$dimen: int track_time_margin
+com.packruler.musicaldaydream.release.R$drawable: int button_bg
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_icon_dark
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_icon_disabled_dark
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_icon_disabled_focus_dark
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_icon_disabled_focus_light
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_icon_disabled_light
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_icon_focus_dark
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_icon_focus_light
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_icon_light
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_icon_normal_dark
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_icon_normal_light
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_icon_pressed_dark
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_icon_pressed_light
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_text_dark
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_text_disabled_dark
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_text_disabled_focus_dark
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_text_disabled_focus_light
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_text_disabled_light
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_text_focus_dark
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_text_focus_light
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_text_light
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_text_normal_dark
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_text_normal_light
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_text_pressed_dark
+com.packruler.musicaldaydream.release.R$drawable: int common_signin_btn_text_pressed_light
+com.packruler.musicaldaydream.release.R$drawable: int divider
+com.packruler.musicaldaydream.release.R$drawable: int green_ic_media_next
+com.packruler.musicaldaydream.release.R$drawable: int green_ic_media_pause
+com.packruler.musicaldaydream.release.R$drawable: int green_ic_media_play
+com.packruler.musicaldaydream.release.R$drawable: int green_ic_media_previous
+com.packruler.musicaldaydream.release.R$drawable: int green_progress_bg_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int green_progress_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int green_progress_indeterminate_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int green_progress_primary_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int green_progress_secondary_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int green_progressbar_indeterminate_holo1
+com.packruler.musicaldaydream.release.R$drawable: int green_progressbar_indeterminate_holo2
+com.packruler.musicaldaydream.release.R$drawable: int green_progressbar_indeterminate_holo3
+com.packruler.musicaldaydream.release.R$drawable: int green_progressbar_indeterminate_holo4
+com.packruler.musicaldaydream.release.R$drawable: int green_progressbar_indeterminate_holo5
+com.packruler.musicaldaydream.release.R$drawable: int green_progressbar_indeterminate_holo6
+com.packruler.musicaldaydream.release.R$drawable: int green_progressbar_indeterminate_holo7
+com.packruler.musicaldaydream.release.R$drawable: int green_progressbar_indeterminate_holo8
+com.packruler.musicaldaydream.release.R$drawable: int green_scrubber_control_disabled_holo
+com.packruler.musicaldaydream.release.R$drawable: int green_scrubber_control_focused_holo
+com.packruler.musicaldaydream.release.R$drawable: int green_scrubber_control_normal_holo
+com.packruler.musicaldaydream.release.R$drawable: int green_scrubber_control_pressed_holo
+com.packruler.musicaldaydream.release.R$drawable: int green_scrubber_control_selector_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int green_scrubber_primary_holo
+com.packruler.musicaldaydream.release.R$drawable: int green_scrubber_progress_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int green_scrubber_secondary_holo
+com.packruler.musicaldaydream.release.R$drawable: int green_scrubber_track_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int holo_ic_media_next
+com.packruler.musicaldaydream.release.R$drawable: int holo_ic_media_pause
+com.packruler.musicaldaydream.release.R$drawable: int holo_ic_media_play
+com.packruler.musicaldaydream.release.R$drawable: int holo_ic_media_previous
+com.packruler.musicaldaydream.release.R$drawable: int ic_launcher
+com.packruler.musicaldaydream.release.R$drawable: int ic_plusone_medium_off_client
+com.packruler.musicaldaydream.release.R$drawable: int ic_plusone_small_off_client
+com.packruler.musicaldaydream.release.R$drawable: int ic_plusone_standard_off_client
+com.packruler.musicaldaydream.release.R$drawable: int ic_plusone_tall_off_client
+com.packruler.musicaldaydream.release.R$drawable: int progress_background
+com.packruler.musicaldaydream.release.R$drawable: int progress_bg_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int progress_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int progress_indeterminate_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int progress_primary_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int progress_secondary_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int progressbar_indeterminate_holo1
+com.packruler.musicaldaydream.release.R$drawable: int progressbar_indeterminate_holo2
+com.packruler.musicaldaydream.release.R$drawable: int progressbar_indeterminate_holo3
+com.packruler.musicaldaydream.release.R$drawable: int progressbar_indeterminate_holo4
+com.packruler.musicaldaydream.release.R$drawable: int progressbar_indeterminate_holo5
+com.packruler.musicaldaydream.release.R$drawable: int progressbar_indeterminate_holo6
+com.packruler.musicaldaydream.release.R$drawable: int progressbar_indeterminate_holo7
+com.packruler.musicaldaydream.release.R$drawable: int progressbar_indeterminate_holo8
+com.packruler.musicaldaydream.release.R$drawable: int purple_ic_media_next
+com.packruler.musicaldaydream.release.R$drawable: int purple_ic_media_pause
+com.packruler.musicaldaydream.release.R$drawable: int purple_ic_media_play
+com.packruler.musicaldaydream.release.R$drawable: int purple_ic_media_previous
+com.packruler.musicaldaydream.release.R$drawable: int purple_progress_bg_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int purple_progress_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int purple_progress_indeterminate_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int purple_progress_primary_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int purple_progress_secondary_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int purple_progressbar_indeterminate_holo1
+com.packruler.musicaldaydream.release.R$drawable: int purple_progressbar_indeterminate_holo2
+com.packruler.musicaldaydream.release.R$drawable: int purple_progressbar_indeterminate_holo3
+com.packruler.musicaldaydream.release.R$drawable: int purple_progressbar_indeterminate_holo4
+com.packruler.musicaldaydream.release.R$drawable: int purple_progressbar_indeterminate_holo5
+com.packruler.musicaldaydream.release.R$drawable: int purple_progressbar_indeterminate_holo6
+com.packruler.musicaldaydream.release.R$drawable: int purple_progressbar_indeterminate_holo7
+com.packruler.musicaldaydream.release.R$drawable: int purple_progressbar_indeterminate_holo8
+com.packruler.musicaldaydream.release.R$drawable: int purple_scrubber_control_disabled_holo
+com.packruler.musicaldaydream.release.R$drawable: int purple_scrubber_control_focused_holo
+com.packruler.musicaldaydream.release.R$drawable: int purple_scrubber_control_normal_holo
+com.packruler.musicaldaydream.release.R$drawable: int purple_scrubber_control_pressed_holo
+com.packruler.musicaldaydream.release.R$drawable: int purple_scrubber_control_selector_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int purple_scrubber_primary_holo
+com.packruler.musicaldaydream.release.R$drawable: int purple_scrubber_progress_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int purple_scrubber_secondary_holo
+com.packruler.musicaldaydream.release.R$drawable: int purple_scrubber_track_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int red_ic_media_next
+com.packruler.musicaldaydream.release.R$drawable: int red_ic_media_pause
+com.packruler.musicaldaydream.release.R$drawable: int red_ic_media_play
+com.packruler.musicaldaydream.release.R$drawable: int red_ic_media_previous
+com.packruler.musicaldaydream.release.R$drawable: int red_progress_bg_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int red_progress_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int red_progress_indeterminate_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int red_progress_primary_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int red_progress_secondary_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int red_progressbar_indeterminate_holo1
+com.packruler.musicaldaydream.release.R$drawable: int red_progressbar_indeterminate_holo2
+com.packruler.musicaldaydream.release.R$drawable: int red_progressbar_indeterminate_holo3
+com.packruler.musicaldaydream.release.R$drawable: int red_progressbar_indeterminate_holo4
+com.packruler.musicaldaydream.release.R$drawable: int red_progressbar_indeterminate_holo5
+com.packruler.musicaldaydream.release.R$drawable: int red_progressbar_indeterminate_holo6
+com.packruler.musicaldaydream.release.R$drawable: int red_progressbar_indeterminate_holo7
+com.packruler.musicaldaydream.release.R$drawable: int red_progressbar_indeterminate_holo8
+com.packruler.musicaldaydream.release.R$drawable: int red_scrubber_control_disabled_holo
+com.packruler.musicaldaydream.release.R$drawable: int red_scrubber_control_focused_holo
+com.packruler.musicaldaydream.release.R$drawable: int red_scrubber_control_normal_holo
+com.packruler.musicaldaydream.release.R$drawable: int red_scrubber_control_pressed_holo
+com.packruler.musicaldaydream.release.R$drawable: int red_scrubber_control_selector_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int red_scrubber_primary_holo
+com.packruler.musicaldaydream.release.R$drawable: int red_scrubber_progress_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int red_scrubber_secondary_holo
+com.packruler.musicaldaydream.release.R$drawable: int red_scrubber_track_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int scrubber_control_disabled_holo
+com.packruler.musicaldaydream.release.R$drawable: int scrubber_control_focused_holo
+com.packruler.musicaldaydream.release.R$drawable: int scrubber_control_normal_holo
+com.packruler.musicaldaydream.release.R$drawable: int scrubber_control_pressed_holo
+com.packruler.musicaldaydream.release.R$drawable: int scrubber_control_selector_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int scrubber_primary_holo
+com.packruler.musicaldaydream.release.R$drawable: int scrubber_progress_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int scrubber_secondary_holo
+com.packruler.musicaldaydream.release.R$drawable: int scrubber_track_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int temp_album_art
+com.packruler.musicaldaydream.release.R$drawable: int white_ic_media_next
+com.packruler.musicaldaydream.release.R$drawable: int white_ic_media_pause
+com.packruler.musicaldaydream.release.R$drawable: int white_ic_media_play
+com.packruler.musicaldaydream.release.R$drawable: int white_ic_media_previous
+com.packruler.musicaldaydream.release.R$drawable: int white_progress_bg_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int white_progress_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int white_progress_indeterminate_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int white_progress_primary_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int white_progress_secondary_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int white_progressbar_indeterminate_holo1
+com.packruler.musicaldaydream.release.R$drawable: int white_progressbar_indeterminate_holo2
+com.packruler.musicaldaydream.release.R$drawable: int white_progressbar_indeterminate_holo3
+com.packruler.musicaldaydream.release.R$drawable: int white_progressbar_indeterminate_holo4
+com.packruler.musicaldaydream.release.R$drawable: int white_progressbar_indeterminate_holo5
+com.packruler.musicaldaydream.release.R$drawable: int white_progressbar_indeterminate_holo6
+com.packruler.musicaldaydream.release.R$drawable: int white_progressbar_indeterminate_holo7
+com.packruler.musicaldaydream.release.R$drawable: int white_progressbar_indeterminate_holo8
+com.packruler.musicaldaydream.release.R$drawable: int white_scrubber_control_disabled_holo
+com.packruler.musicaldaydream.release.R$drawable: int white_scrubber_control_focused_holo
+com.packruler.musicaldaydream.release.R$drawable: int white_scrubber_control_normal_holo
+com.packruler.musicaldaydream.release.R$drawable: int white_scrubber_control_pressed_holo
+com.packruler.musicaldaydream.release.R$drawable: int white_scrubber_control_selector_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int white_scrubber_primary_holo
+com.packruler.musicaldaydream.release.R$drawable: int white_scrubber_progress_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int white_scrubber_secondary_holo
+com.packruler.musicaldaydream.release.R$drawable: int white_scrubber_track_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int yellow_ic_media_next
+com.packruler.musicaldaydream.release.R$drawable: int yellow_ic_media_pause
+com.packruler.musicaldaydream.release.R$drawable: int yellow_ic_media_play
+com.packruler.musicaldaydream.release.R$drawable: int yellow_ic_media_previous
+com.packruler.musicaldaydream.release.R$drawable: int yellow_progress_bg_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int yellow_progress_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int yellow_progress_indeterminate_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int yellow_progress_primary_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int yellow_progress_secondary_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int yellow_progressbar_indeterminate_holo1
+com.packruler.musicaldaydream.release.R$drawable: int yellow_progressbar_indeterminate_holo2
+com.packruler.musicaldaydream.release.R$drawable: int yellow_progressbar_indeterminate_holo3
+com.packruler.musicaldaydream.release.R$drawable: int yellow_progressbar_indeterminate_holo4
+com.packruler.musicaldaydream.release.R$drawable: int yellow_progressbar_indeterminate_holo5
+com.packruler.musicaldaydream.release.R$drawable: int yellow_progressbar_indeterminate_holo6
+com.packruler.musicaldaydream.release.R$drawable: int yellow_progressbar_indeterminate_holo7
+com.packruler.musicaldaydream.release.R$drawable: int yellow_progressbar_indeterminate_holo8
+com.packruler.musicaldaydream.release.R$drawable: int yellow_scrubber_control_disabled_holo
+com.packruler.musicaldaydream.release.R$drawable: int yellow_scrubber_control_focused_holo
+com.packruler.musicaldaydream.release.R$drawable: int yellow_scrubber_control_normal_holo
+com.packruler.musicaldaydream.release.R$drawable: int yellow_scrubber_control_pressed_holo
+com.packruler.musicaldaydream.release.R$drawable: int yellow_scrubber_control_selector_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int yellow_scrubber_primary_holo
+com.packruler.musicaldaydream.release.R$drawable: int yellow_scrubber_progress_horizontal_holo_dark
+com.packruler.musicaldaydream.release.R$drawable: int yellow_scrubber_secondary_holo
+com.packruler.musicaldaydream.release.R$drawable: int yellow_scrubber_track_holo_dark
+com.packruler.musicaldaydream.release.R$id: int Album_Artwork
+com.packruler.musicaldaydream.release.R$id: int Album_Label
+com.packruler.musicaldaydream.release.R$id: int Album_TextView
+com.packruler.musicaldaydream.release.R$id: int Artist_Label
+com.packruler.musicaldaydream.release.R$id: int Artist_TextView
+com.packruler.musicaldaydream.release.R$id: int Pause_Button
+com.packruler.musicaldaydream.release.R$id: int Play_Button
+com.packruler.musicaldaydream.release.R$id: int Skip_Back_Button
+com.packruler.musicaldaydream.release.R$id: int Skip_Forward_Button
+com.packruler.musicaldaydream.release.R$id: int Track_Label
+com.packruler.musicaldaydream.release.R$id: int Track_TextView
+com.packruler.musicaldaydream.release.R$id: int album_art_overlay
+com.packruler.musicaldaydream.release.R$id: int album_track_title_layout
+com.packruler.musicaldaydream.release.R$id: int art_scroll_duration
+com.packruler.musicaldaydream.release.R$id: int authorization_bar
+com.packruler.musicaldaydream.release.R$id: int authorization_button
+com.packruler.musicaldaydream.release.R$id: int authorization_progress_layout
+com.packruler.musicaldaydream.release.R$id: int authorization_status
+com.packruler.musicaldaydream.release.R$id: int button2
+com.packruler.musicaldaydream.release.R$id: int buy_app_button
+com.packruler.musicaldaydream.release.R$id: int clock_and_notifications
+com.packruler.musicaldaydream.release.R$id: int clock_colon
+com.packruler.musicaldaydream.release.R$id: int clock_hour
+com.packruler.musicaldaydream.release.R$id: int clock_layout
+com.packruler.musicaldaydream.release.R$id: int clock_minute
+com.packruler.musicaldaydream.release.R$id: int current_position
+com.packruler.musicaldaydream.release.R$id: int daydream_frame
+com.packruler.musicaldaydream.release.R$id: int dim_screen
+com.packruler.musicaldaydream.release.R$id: int display_album_title
+com.packruler.musicaldaydream.release.R$id: int display_song_times
+com.packruler.musicaldaydream.release.R$id: int dream_setup_info
+com.packruler.musicaldaydream.release.R$id: int dream_text
+com.packruler.musicaldaydream.release.R$id: int duration
+com.packruler.musicaldaydream.release.R$id: int fragment
+com.packruler.musicaldaydream.release.R$id: int fullscreen_art
+com.packruler.musicaldaydream.release.R$id: int hybrid
+com.packruler.musicaldaydream.release.R$id: int immersive_mode
+com.packruler.musicaldaydream.release.R$id: int launch_dream
+com.packruler.musicaldaydream.release.R$id: int launch_dream_settings
+com.packruler.musicaldaydream.release.R$id: int launch_security_settings
+com.packruler.musicaldaydream.release.R$id: int main_frame_layout
+com.packruler.musicaldaydream.release.R$id: int metadata_layout
+com.packruler.musicaldaydream.release.R$id: int metadata_text
+com.packruler.musicaldaydream.release.R$id: int music_control_layout
+com.packruler.musicaldaydream.release.R$id: int musical_daydream
+com.packruler.musicaldaydream.release.R$id: int none
+com.packruler.musicaldaydream.release.R$id: int normal
+com.packruler.musicaldaydream.release.R$id: int notification_clock
+com.packruler.musicaldaydream.release.R$id: int notification_display
+com.packruler.musicaldaydream.release.R$id: int notification_large_icon
+com.packruler.musicaldaydream.release.R$id: int notification_panel
+com.packruler.musicaldaydream.release.R$id: int notification_summary
+com.packruler.musicaldaydream.release.R$id: int notification_title
+com.packruler.musicaldaydream.release.R$id: int num_tries
+com.packruler.musicaldaydream.release.R$id: int number_picker
+com.packruler.musicaldaydream.release.R$id: int progress_bar
+com.packruler.musicaldaydream.release.R$id: int retry_button
+com.packruler.musicaldaydream.release.R$id: int satellite
+com.packruler.musicaldaydream.release.R$id: int scroll_art
+com.packruler.musicaldaydream.release.R$id: int settings
+com.packruler.musicaldaydream.release.R$id: int settingsButton
+com.packruler.musicaldaydream.release.R$id: int settings_setup_title
+com.packruler.musicaldaydream.release.R$id: int stable_bottom
+com.packruler.musicaldaydream.release.R$id: int step_one
+com.packruler.musicaldaydream.release.R$id: int step_two
+com.packruler.musicaldaydream.release.R$id: int swipe_inversion
+com.packruler.musicaldaydream.release.R$id: int swipe_panel
+com.packruler.musicaldaydream.release.R$id: int terrain
+com.packruler.musicaldaydream.release.R$id: int test_notification
+com.packruler.musicaldaydream.release.R$id: int textView2
+com.packruler.musicaldaydream.release.R$id: int textView3
+com.packruler.musicaldaydream.release.R$id: int textView4
+com.packruler.musicaldaydream.release.R$id: int text_dialog_message
+com.packruler.musicaldaydream.release.R$integer: int animation_duration_max
+com.packruler.musicaldaydream.release.R$integer: int animation_duration_min
+com.packruler.musicaldaydream.release.R$integer: int google_play_services_version
+com.packruler.musicaldaydream.release.R$integer: int max_notification_lines
+com.packruler.musicaldaydream.release.R$integer: int progressbar_max
+com.packruler.musicaldaydream.release.R$layout: int activity_daydream_settings
+com.packruler.musicaldaydream.release.R$layout: int activity_start_dreaming
+com.packruler.musicaldaydream.release.R$layout: int authorization_activity
+com.packruler.musicaldaydream.release.R$layout: int first_run_daydream
+com.packruler.musicaldaydream.release.R$layout: int initial_setup
+com.packruler.musicaldaydream.release.R$layout: int musical_daydream
+com.packruler.musicaldaydream.release.R$layout: int preference_layout
+com.packruler.musicaldaydream.release.R$layout: int preference_number_picker_dialog
+com.packruler.musicaldaydream.release.R$menu: int action_bar_menu
+com.packruler.musicaldaydream.release.R$string: int action_settings
+com.packruler.musicaldaydream.release.R$string: int album_artwork_description
+com.packruler.musicaldaydream.release.R$string: int album_label
+com.packruler.musicaldaydream.release.R$string: int album_string
+com.packruler.musicaldaydream.release.R$string: int app_name
+com.packruler.musicaldaydream.release.R$string: int art_scroll_duration
+com.packruler.musicaldaydream.release.R$string: int artist_label
+com.packruler.musicaldaydream.release.R$string: int artist_string
+com.packruler.musicaldaydream.release.R$string: int auth_client_needs_enabling_title
+com.packruler.musicaldaydream.release.R$string: int auth_client_needs_installation_title
+com.packruler.musicaldaydream.release.R$string: int auth_client_needs_update_title
+com.packruler.musicaldaydream.release.R$string: int auth_client_play_services_err_notification_msg
+com.packruler.musicaldaydream.release.R$string: int auth_client_requested_by_msg
+com.packruler.musicaldaydream.release.R$string: int auth_client_using_bad_version_title
+com.packruler.musicaldaydream.release.R$string: int clock_colon
+com.packruler.musicaldaydream.release.R$string: int clock_color
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_enable_button
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_enable_text
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_enable_title
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_install_button
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_install_text_phone
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_install_text_tablet
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_install_title
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_invalid_account_text
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_invalid_account_title
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_network_error_text
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_network_error_title
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_unknown_issue
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_unsupported_date_text
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_unsupported_text
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_unsupported_title
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_update_button
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_update_text
+com.packruler.musicaldaydream.release.R$string: int common_google_play_services_update_title
+com.packruler.musicaldaydream.release.R$string: int common_signin_button_text
+com.packruler.musicaldaydream.release.R$string: int common_signin_button_text_long
+com.packruler.musicaldaydream.release.R$string: int control_color
+com.packruler.musicaldaydream.release.R$string: int dim_screen
+com.packruler.musicaldaydream.release.R$string: int display_album_title
+com.packruler.musicaldaydream.release.R$string: int display_song_times
+com.packruler.musicaldaydream.release.R$string: int dummy_button
+com.packruler.musicaldaydream.release.R$string: int dummy_content
+com.packruler.musicaldaydream.release.R$string: int framework
+com.packruler.musicaldaydream.release.R$string: int fullscreen_art
+com.packruler.musicaldaydream.release.R$string: int green
+com.packruler.musicaldaydream.release.R$string: int hello_world
+com.packruler.musicaldaydream.release.R$string: int holo
+com.packruler.musicaldaydream.release.R$string: int hour_string
+com.packruler.musicaldaydream.release.R$string: int immersive_mode
+com.packruler.musicaldaydream.release.R$string: int initial_setup
+com.packruler.musicaldaydream.release.R$string: int launch_dream_settings
+com.packruler.musicaldaydream.release.R$string: int location_client_powered_by_google
+com.packruler.musicaldaydream.release.R$string: int metadata_color
+com.packruler.musicaldaydream.release.R$string: int minute_string
+com.packruler.musicaldaydream.release.R$string: int play_pause_button_text
+com.packruler.musicaldaydream.release.R$string: int pref_dream_text_default
+com.packruler.musicaldaydream.release.R$string: int pref_dream_text_key
+com.packruler.musicaldaydream.release.R$string: int pref_dream_text_title
+com.packruler.musicaldaydream.release.R$string: int progress_color
+com.packruler.musicaldaydream.release.R$string: int purple
+com.packruler.musicaldaydream.release.R$string: int red
+com.packruler.musicaldaydream.release.R$string: int scroll_art
+com.packruler.musicaldaydream.release.R$string: int settings_string
+com.packruler.musicaldaydream.release.R$string: int skip_back_button_text
+com.packruler.musicaldaydream.release.R$string: int skip_forward_button_text
+com.packruler.musicaldaydream.release.R$string: int stable_bottom
+com.packruler.musicaldaydream.release.R$string: int step_one_process
+com.packruler.musicaldaydream.release.R$string: int step_two_process
+com.packruler.musicaldaydream.release.R$string: int swipe_inversion
+com.packruler.musicaldaydream.release.R$string: int theme_preference
+com.packruler.musicaldaydream.release.R$string: int title_activity_authorization
+com.packruler.musicaldaydream.release.R$string: int title_activity_daydream_settings
+com.packruler.musicaldaydream.release.R$string: int title_activity_google_play_services
+com.packruler.musicaldaydream.release.R$string: int title_activity_main
+com.packruler.musicaldaydream.release.R$string: int title_activity_musical_appdream
+com.packruler.musicaldaydream.release.R$string: int title_activity_start_dreaming
+com.packruler.musicaldaydream.release.R$string: int track_label
+com.packruler.musicaldaydream.release.R$string: int track_string
+com.packruler.musicaldaydream.release.R$string: int white
+com.packruler.musicaldaydream.release.R$string: int yellow
+com.packruler.musicaldaydream.release.R$style: int Green
+com.packruler.musicaldaydream.release.R$style: int Holo
+com.packruler.musicaldaydream.release.R$style: int ProgressBarGreen
+com.packruler.musicaldaydream.release.R$style: int ProgressBarHolo
+com.packruler.musicaldaydream.release.R$style: int ProgressBarPurple
+com.packruler.musicaldaydream.release.R$style: int ProgressBarRed
+com.packruler.musicaldaydream.release.R$style: int ProgressBarWhite
+com.packruler.musicaldaydream.release.R$style: int ProgressBarYellow
+com.packruler.musicaldaydream.release.R$style: int Purple
+com.packruler.musicaldaydream.release.R$style: int Red
+com.packruler.musicaldaydream.release.R$style: int SeekBarGreen
+com.packruler.musicaldaydream.release.R$style: int SeekBarHolo
+com.packruler.musicaldaydream.release.R$style: int SeekBarPurple
+com.packruler.musicaldaydream.release.R$style: int SeekBarRed
+com.packruler.musicaldaydream.release.R$style: int SeekBarWhite
+com.packruler.musicaldaydream.release.R$style: int SeekBarYellow
+com.packruler.musicaldaydream.release.R$style: int TranslucentWithActionBar
+com.packruler.musicaldaydream.release.R$style: int White
+com.packruler.musicaldaydream.release.R$style: int Yellow
+com.packruler.musicaldaydream.release.R$styleable: int[] AdsAttrs
+com.packruler.musicaldaydream.release.R$styleable: int AdsAttrs_adSize
+com.packruler.musicaldaydream.release.R$styleable: int AdsAttrs_adSizes
+com.packruler.musicaldaydream.release.R$styleable: int AdsAttrs_adUnitId
+com.packruler.musicaldaydream.release.R$styleable: int[] ButtonBarContainerTheme
+com.packruler.musicaldaydream.release.R$styleable: int ButtonBarContainerTheme_metaButtonBarButtonStyle
+com.packruler.musicaldaydream.release.R$styleable: int ButtonBarContainerTheme_metaButtonBarStyle
+com.packruler.musicaldaydream.release.R$styleable: int[] MapAttrs
+com.packruler.musicaldaydream.release.R$styleable: int MapAttrs_cameraBearing
+com.packruler.musicaldaydream.release.R$styleable: int MapAttrs_cameraTargetLat
+com.packruler.musicaldaydream.release.R$styleable: int MapAttrs_cameraTargetLng
+com.packruler.musicaldaydream.release.R$styleable: int MapAttrs_cameraTilt
+com.packruler.musicaldaydream.release.R$styleable: int MapAttrs_cameraZoom
+com.packruler.musicaldaydream.release.R$styleable: int MapAttrs_mapType
+com.packruler.musicaldaydream.release.R$styleable: int MapAttrs_uiCompass
+com.packruler.musicaldaydream.release.R$styleable: int MapAttrs_uiRotateGestures
+com.packruler.musicaldaydream.release.R$styleable: int MapAttrs_uiScrollGestures
+com.packruler.musicaldaydream.release.R$styleable: int MapAttrs_uiTiltGestures
+com.packruler.musicaldaydream.release.R$styleable: int MapAttrs_uiZoomControls
+com.packruler.musicaldaydream.release.R$styleable: int MapAttrs_uiZoomGestures
+com.packruler.musicaldaydream.release.R$styleable: int MapAttrs_useViewLifecycle
+com.packruler.musicaldaydream.release.R$styleable: int MapAttrs_zOrderOnTop
+com.packruler.musicaldaydream.release.R$styleable: int[] NumberPickerDialogPreference
+com.packruler.musicaldaydream.release.R$styleable: int NumberPickerDialogPreference_animation_duration_max
+com.packruler.musicaldaydream.release.R$styleable: int NumberPickerDialogPreference_animation_duration_min
+com.packruler.musicaldaydream.release.R$xml: int daydream_info
+com.packruler.musicaldaydream.release.R$xml: int preference
+com.packruler.musicaldaydream.release.SettingsFragment
+com.packruler.musicaldaydream.release.SettingsFragment: SettingsFragment()
+com.packruler.musicaldaydream.release.StartDreaming
+com.packruler.musicaldaydream.release.StartDreaming: StartDreaming()

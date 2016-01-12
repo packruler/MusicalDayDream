@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main_frame_layout" type="id"/>
+    <item name="musical_daydream" type="id" />
+    <item name="dream_text" type="id" />
+    
+    <item name="metadata_layout" type="id" />
+
+    <item name="Artist_Label" type="id" />
+    <item name="Album_Label" type="id" />
+    <item name="Track_Label" type="id" />
+    
+    <item name="Artist_TextView" type="id" />
+    <item name="Album_TextView" type="id" />
+    <item name="Title_TextView" type="id" />
+    <item name="Album_Artwork" type="id" />
+    
+    <item name="Play_Button" type="id" />
+    <item name="Skip_Forward_Button" type="id" />
+    <item name="Skip_Back_Button" type="id" />
+    <item name="notification_panel" type="id"/>
+    <item name="notification_clock" type="id"/>
+    <item name="metadata_text" type="id"/>
+    <item name="album_art_overlay" type="id"/>
+    <item name="daydream_frame" type="id"/>
+    <item name="status_control" type="id"/>
+    <item name="clock_and_notifications" type="id"/>
+
+    <item name="clock_layout" type="id" />
+    <item name="clock_hour" type="id" />
+    <item name="clock_minute" type="id" />
+    <item name="clock_colon" type="id" />
+    <item name="progress_bar" type="id" />
+    <item name="duration" type="id" />
+    <item name="current_position" type="id" />
+    <item name="album_track_title_layout" type="id" />
+    <item name="notification_display" type="id" />
+    <item name="notification_large_icon" type="id" />
+    <item name="notification_summary" type="id" />
+    <item name="swipe_panel" type="id" />
+    <item name="authorization_status" type="id" />
+    <item name="authorization_bar" type="id" />
+    <item name="authorization_progress_layout" type="id" />
+    <item name="authorization_button" type="id" />
+    <item name="buy_app_button" type="id" />
+    <item name="retry_button" type="id" />
+    <item name="num_tries" type="id" />
+    <item name="step_one" type="id" />
+    <item name="step_two" type="id" />
+    <item name="settings" type="id" />
+    <item name="test_notification" type="id"/>
+    <item name="dream_setup_info" type="id"/>
+    <item name="settings_setup_title" type="id"/>
+    <item name="settingsButton" type="id"/>
+</resources>

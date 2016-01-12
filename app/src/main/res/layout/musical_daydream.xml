@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/daydream_frame"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/fade_background"
+        android:background="@android:color/black"
+        android:alpha="0">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/media_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="bottom"
+        android:fitsSystemWindows="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:id="@+id/swipe_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/status_control"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/swipe_top_margin"
+            android:alpha="1"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/current_metadata"
+            android:layout_above="@id/status_control">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/metadata_clock"
+                android:id="@+id/art_frame">
+
+                <ImageView
+                    android:id="@id/Album_Artwork"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center|left"
+                    android:layout_below="@+id/metadata_clock"
+                    android:layout_above="@id/status_control"
+                    android:scaleType="fitStart"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentTop="false"/>
+
+                <FrameLayout
+                    android:id="@id/album_art_overlay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:alpha="0.25"
+                    android:background="#ff000000"
+                    android:visibility="gone">
+
+                </FrameLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/metadata_clock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal|top"
+                android:gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/metadata_clock_margin_sides"
+                android:layout_marginRight="@dimen/metadata_clock_margin_sides"
+                android:layout_marginTop="@dimen/metadata_clock_margin_top_bottom">
+
+                <TextClock
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_clock"
+                    android:format12Hour="h:mm"
+                    style="@android:style/TextAppearance.DeviceDefault.Large"
+                    android:format24Hour="hh:mm"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="10"
+                    android:textColor="#ffffffff"
+                    android:textSize="@dimen/clock_text_size"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_horizontal"
+                    android:layout_alignParentTop="true"
+                    />
+
+                <TextView
+                    android:id="@id/Title_TextView"
+                    style="@android:style/TextAppearance.DeviceDefault.Large"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="10"
+                    android:singleLine="true"
+                    android:text="There is no active music player"
+                    android:textSize="@dimen/metadata_text_size"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="left"/>
+
+                <TextView
+                    android:id="@id/Artist_TextView"
+                    style="@android:style/TextAppearance.DeviceDefault.Large"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="10"
+                    android:singleLine="true"
+                    android:visibility="visible"
+                    android:textSize="@dimen/metadata_text_size"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_horizontal"/>
+
+                <TextView
+                    android:id="@id/Album_TextView"
+                    style="@android:style/TextAppearance.DeviceDefault.Large"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="10"
+                    android:singleLine="true"
+                    android:visibility="visible"
+                    android:textSize="@dimen/metadata_text_size"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_horizontal"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/metadata_background"
+                android:layout_alignParentTop="true"
+                android:layout_alignBottom="@+id/metadata_clock">
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/last_metadata_frame">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/last_metadata_bg"
+                android:layout_gravity="center_horizontal|top">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/last_metadata"/>
+            </RelativeLayout>
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/notification_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/status_control">
+
+            <RelativeLayout
+                android:id="@+id/notification_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/clock_metadata_margin_sides"
+                android:layout_marginRight="@dimen/clock_metadata_margin_sides"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@id/notification_large_icon"
+                    android:layout_width="@android:dimen/notification_large_icon_width"
+                    android:layout_height="@android:dimen/notification_large_icon_width"
+                    android:layout_alignParentStart="true"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/notification_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_horizontal"
+                    android:text="New Text"
+                    android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"/>
+
+                <TextView
+                    android:id="@id/notification_summary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/notification_title"
+                    android:gravity="center_horizontal"
+                    android:maxLines="@integer/max_notification_lines"
+                    android:text="Notification Summary"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Subtitle"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/notification_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="false"
+                android:layout_below="@+id/notification_display"
+                android:layout_gravity="center_horizontal"
+                android:clickable="true"
+                android:divider="@drawable/divider"
+                android:dividerPadding="5dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:longClickable="false"
+                android:orientation="horizontal"
+                android:showDividers="middle"
+                android:visibility="visible"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/status_control"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal|bottom"
+            android:visibility="visible"
+            android:layout_marginLeft="@dimen/staus_margin_sides"
+            android:layout_marginRight="@dimen/staus_margin_sides">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/progress_bar"
+                android:id="@+id/controls"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/control_margin"
+                android:layout_marginRight="@dimen/control_margin"
+                android:layout_alignParentBottom="false"
+                >
+
+                <ImageButton
+                    android:id="@id/Skip_Back_Button"
+                    style="@android:style/MediaButton.Previous"
+                    android:layout_width="@dimen/music_control_size"
+                    android:layout_height="@dimen/music_control_size"
+                    android:onClick="skipBack"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="10"/>
+
+                <ImageButton
+                    android:id="@+id/Pause_Button"
+                    style="@android:style/MediaButton.Pause"
+                    android:layout_width="@dimen/music_control_size"
+                    android:layout_height="@dimen/music_control_size"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="pause"
+                    android:visibility="invisible"
+                    android:scaleType="fitXY"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="10"/>
+
+                <ImageButton
+                    android:id="@id/Play_Button"
+                    style="@android:style/MediaButton.Play"
+                    android:layout_width="@dimen/music_control_size"
+                    android:layout_height="@dimen/music_control_size"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="fitXY"
+                    android:alpha="1"
+                    android:onClick="play"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="10"
+                    />
+
+                <ImageButton
+                    android:id="@id/Skip_Forward_Button"
+                    style="@android:style/MediaButton.Next"
+                    android:layout_width="@dimen/music_control_size"
+                    android:layout_height="@dimen/music_control_size"
+                    android:onClick="skipForward"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="fitXY"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="10"/>
+
+            </RelativeLayout>
+
+            <SeekBar
+                android:id="@+id/progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/duration"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="10"/>
+
+            <com.packruler.musicaldaydream.release.PositionClock
+                android:id="@id/current_position"
+                style="@android:style/TextAppearance.DeviceDefault.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="@dimen/track_time_margin"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="10"
+                android:text="0:00"
+                android:textColor="#ffffffff"
+                android:visibility="visible"
+                android:textSize="@dimen/progress_text_size"
+                />
+
+            <com.packruler.musicaldaydream.release.PositionClock
+                android:id="@id/duration"
+                style="@android:style/TextAppearance.DeviceDefault.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="right"
+                android:paddingRight="@dimen/track_time_margin"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="10"
+                android:text="0:00"
+                android:textColor="#ffffffff"
+                android:visibility="visible"
+                android:textSize="@dimen/progress_text_size"
+                android:layout_alignParentStart="true"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/Battery_Info"
+        style="@android:style/TextAppearance.DeviceDefault.Widget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="10"
+        android:singleLine="true"
+        android:text="Battery Info"
+        android:textSize="@dimen/battery_text_size"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="visible"/>
+
+    <RelativeLayout
+        android:id="@+id/load_screen"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="1"
+        android:background="@android:color/black"
+        android:gravity="center_vertical|center_horizontal"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:id="@+id/testFont"
+            style="@android:style/TextAppearance.DeviceDefault.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Starting to dream"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

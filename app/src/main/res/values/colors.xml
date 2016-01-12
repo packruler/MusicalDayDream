@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text_shadow">#ff333333</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="clock_color">#FFFFFFFF</color>
+    <color name="notification_display_background">#55000000</color>
+
+    <color name="holo_color">#33b5e5</color>
+    <color name="green_color">#54cc00</color>
+    <color name="purple_color">#aa65cc</color>
+    <color name="red_color">#cc0000</color>
+    <color name="white_color">#ffffff</color>
+    <color name="yellow_color">#ffbc35</color>
+
+
+</resources>

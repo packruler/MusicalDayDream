@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_preference">Theme Settings</string>
+    <string name="full_theme">Set All</string>
+    <string name="clock_color">Clock</string>
+    <string name="metadata_color">Metadata Text</string>
+    <string name="progress_color">Progress Bar</string>
+    <string name="control_color">Media Controls</string>
+    <string name="battery_color">Battery Status</string>
+    <string name="dream_background">Set Dream Background Color</string>
+    <string name="framework">Default Framework</string>
+
+    <string name="full_theme_custom">Custom Color For All Elements</string>
+    <string name="clock_color_custom">Custom Color For Clock</string>
+    <string name="metadata_color_custom">Custom Color For Metadata Text</string>
+    <string name="progress_color_custom">Custom Color For Progress Bar</string>
+    <string name="control_color_custom">Custom Color For Media Controls</string>
+    <string name="battery_color_custom">Custom Color For Battery Status</string>
+    <string name="background_custom">Set Dream Background To Custom Color</string>
+
+    <string name="full_theme_framework">Default Framework Color For All Elements</string>
+    <string name="clock_color_framework">Default Framework Color For Clock</string>
+    <string name="metadata_color_framework">Default Framework Color For Metadata Text</string>
+    <string name="progress_color_framework">Default Framework Color For Progress Bar</string>
+    <string name="control_color_framework">Default Framework Color For Media Controls</string>
+    <string name="battery_color_framework">Default Framework Color For Battery Status</string>
+    <string name="background_black">Set Dream Background To Black</string>
+
+    <string name="full_theme_palette">Album Art Palette For All Elements</string>
+    <string name="clock_color_palette">Album Art Palette For Clock</string>
+    <string name="metadata_color_palette">Album Art Palette For Metadata Text</string>
+    <string name="progress_color_palette">Album Art Palette For Progress Bar</string>
+    <string name="control_color_palette">Album Art Palette For Media Controls</string>
+    <string name="battery_color_palette">Album Art Palette For Battery Status</string>
+    <string name="background_palette">Set Dream Background To Album Art Palette Color</string>
+
+    <string name="holo">Holo</string>
+    <string name="white">White</string>
+    <string name="green">Green</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="purple">Purple</string>
+    <string name="black">Black</string>
+    <string name="palette">Album Art Palette</string>
+
+    <string name="display_album_title">Display Album Title</string>
+    <string name="fullscreen_art">Fullscreen Album Art</string>
+    <string name="fit_art">Fit Art On Screen</string>
+    <string name="scroll_art">Scroll Album Art</string>
+    <string name="immersive_mode">Immersive Display</string>
+    <string name="stable_bottom">Controls On Bottom</string>
+    <string name="dim_screen">Dimming While Dreaming</string>
+    <string name="swipe_inversion">Google Music Swipe Style</string>
+    <string name="art_scroll_duration">Speed of Album Art Scroll</string>
+    <string name="display_song_times">Display Song Progress Times</string>
+    <string name="song_time_left">Show Time Left In Song</string>
+
+    <string name="blacklist">Blacklist App Notifications</string>
+    
+    <string name="notification_packages">Notification Packages</string>
+    <string name="notification_package_labels">Notification Package Labels</string>
+
+    <string name="bold_hour">Bold Clock Hour</string>
+
+    <string name="notification_icon_size">Notification Icon Size</string>
+    <string name="text_size_preferences">Text Size Preferences</string>
+    <string name="clock_text_size">Clock Text Size</string>
+    <string name="artist_name_text_size">Artist Name Text Size</string>
+    <string name="track_title_text_size">Track Title Text Size</string>
+    <string name="album_name_text_size">Album Name Text Size</string>
+    <string name="battery_info_text_size">Battery Status Text Size</string>
+
+    <string name="screen_timeout_pause">Screen Timeout On Pause</string>
+    <string name="select_picture_folder">Set Folder For Picture Slide Show</string>
+
+    <string name="alpha_settings">Transparency Settings</string>
+    <string name="alpha_info">Set to 100 for no transparency\nSet to 0 for invisible\nIf fade disabled While Playing transparency will be used</string>
+    <string name="default_playing">Default is 100</string>
+    <string name="default_paused">Default is 50</string>
+
+    <string name="fade_all">Fade All</string>
+    <string name="fade_music_controls">Fade Music Controls</string>
+    <string name="fade_metadata">Fade Metadata</string>
+    <string name="fade_clock">Fade Clock</string>
+    <string name="fade_notification_icons">Fade Notification Icons</string>
+
+    <string name="alpha_playing">Transparency While Playing</string>
+    <string name="alpha_paused">Transparency While Paused</string>
+    <string name="all_alpha_settings">Set All Transparency</string>
+    <string name="clock_alpha_settings">Set Clock Transparency</string>
+    <string name="metadata_alpha_settings">Set Metadata Transparency</string>
+    <string name="notification_icon_alpha_settings">Set Notification Icon Transparency</string>
+    <string name="control_alpha_settings">Set Control Transparency</string>
+    <string name="all_alpha_playing">All Playing</string>
+    <string name="all_alpha_paused">All Paused</string>
+    <string name="clock_alpha_playing">Clock Playing</string>
+    <string name="clock_alpha_paused">Clock Paused</string>
+    <string name="metadata_alpha_playing">Metadata Playing</string>
+    <string name="metadata_alpha_paused">Metadata Paused</string>
+    <string name="notification_alpha_playing">Notification Icons Playing</string>
+    <string name="notification_alpha_paused">Notification Icons Paused</string>
+    <string name="control_alpha_playing">Media Control Playing</string>
+    <string name="control_alpha_paused">Media Control Paused</string>
+
+    <string name="limit_marquee">Limit Text Marquee Scroll</string>
+    <string name="display_battery">Display Battery Status</string>
+    <string name="hide_battery_full">Hide Battery Status When Full</string>
+    
+    <string name="font_selection">Select Font</string>
+    <string name="sort_order">Select Sort Order</string>
+    <string name="sans_serif">Sans-Serif</string>
+    <string name="serif">Serif</string>
+    <string name="font_display">Display</string>
+    <string name="handwriting">Handwriting</string>
+    <string name="monospace">Monospace</string>
+
+    <string name="framework_font">Default Framework</string>
+
+    <string name="sans_serif_set">Sans-Serif Set</string>
+    <string name="serif_set">Serif Set</string>
+    <string name="font_display_set">Display Set</string>
+    <string name="handwriting_set">Handwriting Set</string>
+    <string name="monospace_set">Monospace Set</string>
+
+    <string name="delete_fonts">Delete Individual Fonts</string>
+    <string name="delete_all">Delete All Fonts</string>
+    <string name="confirm">Are you sure?</string>
+
+    <string name="mass_download">Mass Download Fonts</string>
+    <string name="download_sans_serif">Download All Sans Serif</string>
+    <string name="download_serif">Download All Serif</string>
+    <string name="download_display">Download All Display</string>
+    <string name="download_handwriting">Download All Handwriting</string>
+    <string name="download_monospace">Download All Monospace</string>
+    <string name="download_all">Download All Fonts</string>
+
+    <string name="double_tap_options">Action On Screen Double Tap</string>
+
+    <string name="display_notifications">Display Notifications</string>
+    <string name="maintain_position">Track Song Position</string>
+    <string name="full_progress_bar">Show Full Progress Bar</string>
+    <string name="hide_start_dreaming">Hide Start Dreaming Icon</string>
+</resources>

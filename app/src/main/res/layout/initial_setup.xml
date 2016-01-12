@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="false"
+        android:id="@id/step_one"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Security Settings"
+            android:id="@id/settingsButton"
+            android:layout_centerHorizontal="true"
+            android:onClick="launchSecuritySettings"
+            android:layout_alignParentBottom="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="First Things First:"
+            android:textSize="40sp"
+            android:id="@id/settings_setup_title"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentStart="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/step_one_process"
+            android:id="@+id/textView2"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_below="@id/settings_setup_title"
+            android:layout_alignParentStart="true"
+            android:singleLine="false"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@id/step_two"
+        android:gravity="center_vertical|center_horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daydream Settings"
+            android:id="@+id/DaydreamSettingsButton"
+            android:layout_centerHorizontal="true"
+            android:singleLine="false"
+            android:onClick="launchDaydreamSettings"
+            android:layout_alignParentBottom="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Next Step"
+            android:id="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/step_two_process"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:id="@id/settings">
+
+        <fragment
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:name="com.packruler.musicaldaydream.release.SettingsFragment"
+            android:id="@+id/fragment"
+            tools:layout="@layout/preference_layout" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

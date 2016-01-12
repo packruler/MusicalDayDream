@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="swipe_top_margin">50dp</dimen>
+    <dimen name="clock_text_size">40sp</dimen>
+    <dimen name="track_text">25sp</dimen>
+    <dimen name="album_artist_text">25sp</dimen>
+    <dimen name="notification_icon_size">50dp</dimen>
+    <dimen name="notification_panel_height">70dp</dimen>
+    <dimen name="notification_display_text_size">20sp</dimen>
+    <dimen name="notification_display_size">100dp</dimen>
+    <dimen name="progress_padding">5dp</dimen>
+    <dimen name="music_control_size">50dp</dimen>
+    <dimen name="track_position_text_size">15sp</dimen>
+    <dimen name="progress_bar_height">15dp</dimen>
+    <dimen name="track_time_margin">20dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="clock_metadata_width">300dp</dimen>
+
+</resources>

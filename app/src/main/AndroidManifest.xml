@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.packruler.musicaldaydream.release"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <permission android:name="com.packruler.musicaldaydream.release.LICENSE_CHECK"
+                android:label="Musical Daydream License Check Access"
+                android:protectionLevel="normal"
+                android:description="@string/license_check_description"/>
+
+    <application
+        android:allowBackup="true"
+        android:backupAgent=".BackupUtility"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Main">
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAIPUKpw_eD9iWk5i3n5Ll4jC_K2Hzpm8T10E49pw"/>
+
+        <!-- This service is only used on devices with API v17+ -->
+        <service
+            android:name=".MusicalDaydreamService"
+            android:exported="true"
+            android:permission="android.permission.BIND_DREAM_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.dreams.DreamService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+            <!-- Point to additional information for this dream -->
+            <meta-data
+                android:name="android.service.dream"
+                android:resource="@xml/daydream_info"/>
+        </service>
+        <service
+            android:name=".ListenerService"
+            android:enabled="true"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".LicenseCheck"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="com.packruler.musicaldaydream.release.LICENSE_CHECK">
+            <intent-filter>
+                <action android:name="com.packruler.musicaldaydream.release.IMusicalDaydreamLicense.START"/>
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <activity
+            android:name=".FirstTimeSetup"
+            android:label="@string/title_activity_authorization">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name=".app.MusicalDaydreamSettings"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StartDreaming"
+            android:excludeFromRecents="true"
+            android:label="@string/title_activity_start_dreaming">
+            <intent-filter>
+                <action android:name="com.google.android.gms.actions.SEARCH_ACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name=".app.StartDreaming"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DaydreamSettings"
+            android:label="@string/title_activity_daydream_settings">
+        </activity>
+    </application>
+
+</manifest>

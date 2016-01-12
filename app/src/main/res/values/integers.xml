@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="progressbar_max">10000</integer>
+    <integer name="max_notification_lines">5</integer>
+
+    <integer name="animation_duration_max">60</integer>
+    <integer name="animation_duration_min">1</integer>
+    <integer name="landscape">0</integer>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Musical Day Dream</string>
+    <string name="pref_dream_text_key">pref_dream_text</string>
+    <string name="pref_dream_text_default">Where\'s The Music At?</string>
+    <string name="pref_dream_text_title">Ticker</string>
+    <string name="artist_string">Artist text</string>
+    <string name="album_string">Album text</string>
+    <string name="track_string">Track text</string>
+    <string name="album_artwork_description">Album Art</string>
+    <string name="skip_forward_button_text">Next</string>
+    <string name="play_pause_button_text">Play/Pause</string>
+    <string name="skip_back_button_text">Back</string>
+    <string name="artist_label">Artist:</string>
+    <string name="album_label">Album:</string>
+    <string name="track_label">Track:</string>
+    <string name="title_activity_google_play_services">GooglePlayServicesActivity</string>
+    <string name="title_activity_musical_appdream">MusicalAppdream</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="minute_string">00</string>
+    <string name="hour_string">00</string>
+    <string name="clock_colon">:</string>
+    <string name="title_activity_authorization">Musical Daydream Authorization</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="initial_setup">Initial Setup</string>
+    <string name="settings_string">Daydream Settings</string>
+    <string name="step_one_process">Click on the button below to launch Notification Access Settings.\n\n
+    Enable Musical Daydream\n\n
+    Hit the Back button on your device until you return to this app</string>
+    <string name="step_two_process">Click on the button below to launch Daydream Settings\n\n
+    Then select Musical Daydream\n\n
+    You can then Start Dreaming or return here for more settings</string>
+    <string name="launch_dream_settings">Daydream Settings</string>
+    <string name="title_activity_start_dreaming">Start Dreaming</string>
+    <string name="title_activity_daydream_settings">Musical Daydream Settings</string>
+    <string name="title_activity_search_dreaming">SearchDreaming</string>
+
+
+    <string name="license_check_description">Gain acceess to Musical Daydream by Packruler Creations to verify purchase of Musical Daydream</string>
+</resources>

@@ -1,0 +1,593 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Text Display Settings">
+
+        <PreferenceScreen
+            android:key="@string/theme_preference"
+            android:persistent="true"
+            android:title="@string/theme_preference">
+
+            <PreferenceScreen
+                android:key="@string/full_theme"
+                android:title="@string/full_theme">
+
+                <com.chiralcode.colorpicker.ColorPickerPreference
+                    android:dialogTitle="@string/full_theme_custom"
+                    android:key="@string/full_theme_custom"
+                    android:summary="Does not include background"
+                    android:title="@string/full_theme_custom"/>
+
+                <CheckBoxPreference
+                    android:key="@string/full_theme_framework"
+                    android:title="@string/full_theme_framework"/>
+
+                <CheckBoxPreference
+                    android:key="@string/full_theme_palette"
+                    android:title="@string/full_theme_palette"/>
+
+            </PreferenceScreen>
+
+            <PreferenceScreen
+                android:key="@string/clock_color"
+                android:title="@string/clock_color">
+
+                <com.chiralcode.colorpicker.ColorPickerPreference
+                    android:dialogTitle="@string/clock_color_custom"
+                    android:key="@string/clock_color_custom"
+                    android:title="@string/clock_color_custom"/>
+
+                <CheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="@string/clock_color_framework"
+                    android:title="@string/clock_color_framework"/>
+
+                <CheckBoxPreference
+                    android:key="@string/clock_color_palette"
+                    android:title="@string/clock_color_palette"/>
+
+            </PreferenceScreen>
+
+            <PreferenceScreen
+                android:key="@string/metadata_color"
+                android:title="@string/metadata_color">
+
+                <com.chiralcode.colorpicker.ColorPickerPreference
+                    android:dialogTitle="@string/metadata_color_custom"
+                    android:key="@string/metadata_color_custom"
+                    android:title="@string/metadata_color_custom"/>
+
+                <CheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="@string/metadata_color_framework"
+                    android:title="@string/metadata_color_framework"/>
+
+                <CheckBoxPreference
+                    android:key="@string/metadata_color_palette"
+                    android:title="@string/metadata_color_palette"/>
+
+            </PreferenceScreen>
+
+            <PreferenceScreen
+                android:key="@string/battery_color"
+                android:title="@string/battery_color">
+
+                <com.chiralcode.colorpicker.ColorPickerPreference
+                    android:dialogTitle="@string/battery_color_custom"
+                    android:key="@string/battery_color_custom"
+                    android:title="@string/battery_color_custom"/>
+
+                <CheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="@string/battery_color_framework"
+                    android:title="@string/battery_color_framework"/>
+
+                <CheckBoxPreference
+                    android:key="@string/battery_color_palette"
+                    android:title="@string/battery_color_palette"/>
+
+            </PreferenceScreen>
+
+            <PreferenceScreen
+                android:key="@string/progress_color"
+                android:title="@string/progress_color">
+
+                <com.chiralcode.colorpicker.ColorPickerPreference
+                    android:dialogTitle="@string/progress_color_custom"
+                    android:key="@string/progress_color_custom"
+                    android:title="@string/progress_color_custom"/>
+
+                <CheckBoxPreference
+                    android:defaultValue="false"
+                    android:key="@string/progress_color_framework"
+                    android:title="@string/progress_color_framework"/>
+
+                <CheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="@string/progress_color_palette"
+                    android:title="@string/progress_color_palette"/>
+
+            </PreferenceScreen>
+
+            <PreferenceScreen
+                android:key="@string/control_color"
+                android:title="@string/control_color">
+
+                <com.chiralcode.colorpicker.ColorPickerPreference
+                    android:dialogTitle="@string/control_color_custom"
+                    android:key="@string/control_color_custom"
+                    android:title="@string/control_color_custom"/>
+
+                <CheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="@string/control_color_framework"
+                    android:title="@string/control_color_framework"/>
+
+                <CheckBoxPreference
+                    android:key="@string/control_color_palette"
+                    android:title="@string/control_color_palette"/>
+
+            </PreferenceScreen>
+
+            <PreferenceScreen
+                android:key="@string/dream_background"
+                android:title="@string/dream_background">
+
+                <CheckBoxPreference
+                    android:defaultValue="false"
+                    android:key="@string/background_black"
+                    android:title="@string/background_black"/>
+
+                <CheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="@string/background_palette"
+                    android:title="@string/background_palette"/>
+
+            </PreferenceScreen>
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="@string/alpha_settings"
+            android:title="@string/alpha_settings">
+
+            <Preference
+                android:key="@string/alpha_info"
+                android:selectable="false"
+                android:summary="@string/alpha_info"/>
+
+            <PreferenceScreen
+                android:key="@string/all_alpha_settings"
+                android:title="@string/all_alpha_settings">
+
+                <CheckBoxPreference
+                    android:key="@string/fade_all"
+                    android:summary="Fade Clock, Metadata, Notification Icons, and Media Controls when music not playing"
+                    android:title="@string/fade_all"/>
+
+                <com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+                    android:defaultValue="100"
+                    android:key="@string/all_alpha_playing"
+                    android:title="@string/alpha_playing"/>
+
+                <com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+                    android:defaultValue="50"
+                    android:key="@string/all_alpha_paused"
+                    android:title="@string/alpha_paused"/>
+
+            </PreferenceScreen>
+
+            <PreferenceScreen
+                android:key="@string/clock_alpha_settings"
+                android:title="@string/clock_alpha_settings">
+
+                <CheckBoxPreference
+                    android:id="@+id/fade_clock"
+                    android:key="@string/fade_clock"
+                    android:summary="Fade clock when music is not playing (will fade back every minute)"
+                    android:title="@string/fade_clock"/>
+
+                <com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+                    android:defaultValue="100"
+                    android:key="@string/clock_alpha_playing"
+                    android:title="@string/alpha_playing"/>
+
+                <com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+                    android:defaultValue="50"
+                    android:key="@string/clock_alpha_paused"
+                    android:title="@string/alpha_paused"/>
+
+            </PreferenceScreen>
+
+            <PreferenceScreen
+                android:key="@string/metadata_alpha_settings"
+                android:title="@string/metadata_alpha_settings">
+
+                <CheckBoxPreference
+                    android:id="@+id/dim_metadata"
+                    android:key="@string/fade_metadata"
+                    android:summary="Fade metadata while music is not playing"
+                    android:title="@string/fade_metadata"/>
+
+                <com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+                    android:defaultValue="100"
+                    android:key="@string/metadata_alpha_playing"
+                    android:title="@string/alpha_playing"/>
+
+                <com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+                    android:defaultValue="50"
+                    android:key="@string/metadata_alpha_paused"
+                    android:title="@string/alpha_paused"/>
+
+            </PreferenceScreen>
+
+            <PreferenceScreen
+                android:key="@string/notification_icon_alpha_settings"
+                android:title="@string/notification_icon_alpha_settings">
+
+                <CheckBoxPreference
+                    android:id="@+id/fade_notification_icons"
+                    android:key="@string/fade_notification_icons"
+                    android:summary="Fade notification icons when music is not playing"
+                    android:title="@string/fade_notification_icons"/>
+
+                <com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+                    android:defaultValue="100"
+                    android:key="@string/notification_alpha_playing"
+                    android:title="@string/alpha_playing"/>
+
+                <com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+                    android:defaultValue="50"
+                    android:key="@string/notification_alpha_paused"
+                    android:title="@string/alpha_paused"/>
+
+            </PreferenceScreen>
+
+            <PreferenceScreen
+                android:key="@string/control_alpha_settings"
+                android:title="@string/control_alpha_settings">
+
+                <CheckBoxPreference
+                    android:id="@+id/dim_music_controls"
+                    android:key="@string/fade_music_controls"
+                    android:summary="Fade music controls when music is not playing"
+                    android:title="@string/fade_music_controls"/>
+
+                <com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+                    android:defaultValue="100"
+                    android:key="@string/control_alpha_playing"
+                    android:title="@string/alpha_playing"/>
+
+                <com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+                    android:defaultValue="50"
+                    android:key="@string/control_alpha_paused"
+                    android:title="@string/alpha_paused"/>
+
+            </PreferenceScreen>
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:id="@+id/text_sizes"
+            android:key="@string/text_size_preferences"
+            android:title="@string/text_size_preferences">
+
+            <com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+                android:id="@+id/clock_text_size"
+                android:defaultValue="0"
+                android:key="@string/clock_text_size"
+                android:summary="Set text size of the clock. To get system default set to 0."
+                android:title="@string/clock_text_size"/>
+
+
+            <com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+                android:id="@+id/artist_name_text_size"
+                android:defaultValue="0"
+                android:key="@string/artist_name_text_size"
+                android:summary="Set text size of the artist name. To get system default set to 0."
+                android:title="@string/artist_name_text_size"/>
+
+            <com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+                android:id="@+id/track_title_text_size"
+                android:defaultValue="0"
+                android:key="@string/track_title_text_size"
+                android:summary="Set text size of the track title. To get system default set to 0."
+                android:title="@string/track_title_text_size"/>
+
+            <com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+                android:id="@+id/album_name_text_size"
+                android:defaultValue="0"
+                android:key="@string/album_name_text_size"
+                android:summary="Set text size of the album name. To get system default set to 0."
+                android:title="@string/album_name_text_size"/>
+
+            <com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+                android:defaultValue="0"
+                android:key="@string/battery_info_text_size"
+                android:summary="Set text size of the battery status. To get system default set to 0."
+                android:title="@string/battery_info_text_size"/>
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="@string/font_selection"
+            android:title="@string/font_selection">
+
+            <ListPreference
+                android:entries="@array/sort_order_options"
+                android:entryValues="@array/sort_order_options"
+                android:key="@string/sort_order"
+                android:title="@string/sort_order"/>
+
+            <!--<PreferenceScreen-->
+            <!--android:key="Font Test"-->
+            <!--android:selectable="false"-->
+            <!--android:layout="@layout/test_font"/>-->
+
+            <!--<com.packruler.musicaldaydream.release.FontPreference
+                android:key="testList"
+                android:title="Font PrefList"
+                android:entries="@array/sort_order_options"
+                android:entryValues="@array/sort_order_options"/>-->
+
+            <PreferenceCategory
+                android:selectable="false"
+                android:title="Select Font Category">
+
+                <com.packruler.musicaldaydream.release.FontPreference
+                    android:enabled="false"
+                    android:key="@string/sans_serif"
+                    android:title="@string/sans_serif"/>
+
+                <com.packruler.musicaldaydream.release.FontPreference
+                    android:enabled="false"
+                    android:key="@string/serif"
+                    android:title="@string/serif"/>
+
+                <com.packruler.musicaldaydream.release.FontPreference
+                    android:enabled="false"
+                    android:key="@string/font_display"
+                    android:title="@string/font_display"/>
+
+                <com.packruler.musicaldaydream.release.FontPreference
+                    android:enabled="false"
+                    android:key="@string/handwriting"
+                    android:title="@string/handwriting"/>
+
+                <com.packruler.musicaldaydream.release.FontPreference
+                    android:enabled="false"
+                    android:key="@string/monospace"
+                    android:title="@string/monospace"/>
+
+                <CheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="@string/framework_font"
+                    android:title="@string/framework_font"/>
+
+                <MultiSelectListPreference
+                    android:key="@string/delete_fonts"
+                    android:title="@string/delete_fonts"/>
+
+                <ListPreference
+                    android:dialogTitle="@string/confirm"
+                    android:enabled="false"
+                    android:entries="@array/boolean_list"
+                    android:entryValues="@array/boolean_list"
+                    android:key="@string/delete_all"
+                    android:title="@string/delete_all"/>
+
+                <PreferenceScreen
+                    android:key="@string/mass_download"
+                    android:title="@string/mass_download">
+
+                    <ListPreference
+                        android:dialogTitle="@string/confirm"
+                        android:entries="@array/boolean_list"
+                        android:entryValues="@array/boolean_list"
+                        android:key="@string/download_sans_serif"
+                        android:title="@string/download_sans_serif"/>
+
+                    <ListPreference
+                        android:dialogTitle="@string/confirm"
+                        android:entries="@array/boolean_list"
+                        android:entryValues="@array/boolean_list"
+                        android:key="@string/download_serif"
+                        android:title="@string/download_serif"/>
+
+                    <ListPreference
+                        android:dialogTitle="@string/confirm"
+                        android:entries="@array/boolean_list"
+                        android:entryValues="@array/boolean_list"
+                        android:key="@string/download_display"
+                        android:title="@string/download_display"/>
+
+                    <ListPreference
+                        android:dialogTitle="@string/confirm"
+                        android:entries="@array/boolean_list"
+                        android:entryValues="@array/boolean_list"
+                        android:key="@string/download_handwriting"
+                        android:title="@string/download_handwriting"/>
+
+                    <ListPreference
+                        android:dialogTitle="@string/confirm"
+                        android:entries="@array/boolean_list"
+                        android:entryValues="@array/boolean_list"
+                        android:key="@string/download_monospace"
+                        android:title="@string/download_monospace"/>
+
+                    <ListPreference
+                        android:dialogTitle="@string/confirm"
+                        android:entries="@array/boolean_list"
+                        android:entryValues="@array/boolean_list"
+                        android:key="@string/download_all"
+                        android:title="@string/download_all"/>
+
+                </PreferenceScreen>
+
+            </PreferenceCategory>
+
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:id="@+id/display_album_title"
+            android:defaultValue="false"
+            android:key="@string/display_album_title"
+            android:summaryOff="Not Displaying Album Title"
+            android:summaryOn="Currently Displaying Album Title Under Artist Name"
+            android:title="@string/display_album_title"/>
+
+        <CheckBoxPreference
+            android:key="@string/limit_marquee"
+            android:summaryOff="Metadata longer than allotted space will scroll forever"
+            android:summaryOn="Metadata longer than allotted space will scroll only once"
+            android:title="@string/limit_marquee"/>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/display_battery"
+            android:title="@string/display_battery"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/hide_battery_full"
+            android:title="@string/hide_battery_full"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Display Layout Options">
+
+        <CheckBoxPreference
+            android:id="@+id/fullscreen_art"
+            android:defaultValue="true"
+            android:key="@string/fullscreen_art"
+            android:title="@string/fullscreen_art"/>
+
+        <CheckBoxPreference
+            android:id="@+id/fit_art"
+            android:defaultValue="false"
+            android:key="@string/fit_art"
+            android:summary="Display full art on screen (no cropping)"
+            android:title="@string/fit_art"/>
+
+        <CheckBoxPreference
+            android:id="@+id/scroll_art"
+            android:defaultValue="false"
+            android:key="@string/scroll_art"
+            android:title="@string/scroll_art"/>
+
+        <CheckBoxPreference
+            android:id="@+id/immersive_mode"
+            android:defaultValue="false"
+            android:key="@string/immersive_mode"
+            android:summaryOff="The navigation bar will stay on the screen but dimmed"
+            android:summaryOn="The navigation bar leaves the screen until you swipe it back up"
+            android:title="@string/immersive_mode"/>
+
+        <CheckBoxPreference
+            android:id="@+id/stable_bottom"
+            android:defaultValue="false"
+            android:key="@string/stable_bottom"
+            android:summaryOff="The music controls will be above the nav bar even if is not on the screen"
+            android:summaryOn="The music controls will be on the bottom of the screen. They will be behind immersive nav bar"
+            android:title="@string/stable_bottom"/>
+
+        <com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+            android:id="@+id/notification_icon_size"
+            android:key="@string/notification_icon_size"
+            android:summary="Set size of notification icons displayed. To return to default set to 0"
+            android:title="@string/notification_icon_size"/>
+
+        <CheckBoxPreference
+            android:id="@+id/display_song_times"
+            android:key="@string/display_song_times"
+            android:summary="Display current position and duration times (this can cause stuttering in animation)"
+            android:title="@string/display_song_times"/>
+
+        <CheckBoxPreference
+            android:id="@+id/song_time_left"
+            android:defaultValue="false"
+            android:key="@string/song_time_left"
+            android:summaryOff="Total duration of song will be displayed"
+            android:summaryOn="Time left in song will be displayed"
+            android:title="@string/song_time_left"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Miscellaneous Settings">
+
+        <CheckBoxPreference
+            android:key="@string/maintain_position"
+            android:summary="Keeping status of song increases battery usage at all times music plays"
+            android:title="@string/maintain_position"/>
+
+        <CheckBoxPreference
+            android:key="@string/full_progress_bar"
+            android:summary="Only effective if not tracking song progress"
+            android:title="@string/full_progress_bar"/>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/display_notifications"
+            android:summary="Notification listener enabled required no matter what"
+            android:title="@string/display_notifications"/>
+
+        <MultiSelectListPreference
+            android:id="@+id/blacklist"
+            android:entries="@array/temp_blacklist_preference"
+            android:entryValues="@array/temp_blacklist_preference"
+            android:key="@string/blacklist"
+            android:title="@string/blacklist"/>
+
+        <CheckBoxPreference
+            android:id="@+id/dim_screen"
+            android:defaultValue="true"
+            android:key="@string/dim_screen"
+            android:summaryOff="Screen will NOT dim after System sleep time while dreaming"
+            android:summaryOn="Screen will dim after System sleep time while dreaming"
+            android:title="@string/dim_screen"/>
+
+        <CheckBoxPreference
+            android:id="@+id/swipe_inversion"
+            android:defaultValue="true"
+            android:key="@string/swipe_inversion"
+            android:summaryOff="Swiping from right to left will go to start of current song or previous song"
+            android:summaryOn="Swiping from right to left will go to next song"
+            android:title="@string/swipe_inversion"/>
+
+        <com.packruler.musicaldaydream.release.NumberPickerDialogPreference
+            android:id="@+id/art_scroll_duration"
+            android:defaultValue="12"
+            android:key="@string/art_scroll_duration"
+            android:summary="The speed of art scrolling across the screen. (Lower is faster)"
+            android:title="@string/art_scroll_duration"/>
+
+        <ListPreference
+            android:id="@+id/screen_timeout_pause"
+            android:entries="@array/screen_timeouts"
+            android:entryValues="@array/screen_timeouts"
+            android:key="@string/screen_timeout_pause"
+            android:summary="Set screen timeout for when music is not playing (Requires non secure lock screen on Lollipop)"
+            android:title="@string/screen_timeout_pause"/>
+
+        <ListPreference
+            android:entries="@array/double_tap_array"
+            android:entryValues="@array/double_tap_array"
+            android:key="@string/double_tap_options"
+            android:title="@string/double_tap_options"/>
+
+        <CheckBoxPreference
+            android:key="@string/hide_start_dreaming"
+            android:title="@string/hide_start_dreaming"
+            android:summary="May require restart of launcher to update"/>
+
+        <!--<Preference
+            android:id="@+id/select_picture_folder"
+            android:key="@string/select_picture_folder"
+            android:summary="Pictures will display when no music is playing if enabled"
+            android:title="@string/select_picture_folder"/>-->
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

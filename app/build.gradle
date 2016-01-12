@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 101
+        versionName "1.8.2.4"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFile 'proguard-google-api-client.txt'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            zipAlignEnabled true
+            debuggable false
+        }
+        debug {
+            minifyEnabled false
+            zipAlignEnabled true
+            debuggable true
+        }
+    }
+
+}
+
+dependencies {
+    compile 'com.google.android.gms:play-services:6.5.87'
+    compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:palette-v7:21.0.0'
+    compile 'com.google.apis:google-api-services-webfonts:v1-rev40-1.19.0'
+    compile 'com.google.apis:google-api-services-tasks:v1-rev19-1.17.0-rc'
+    compile 'com.google.api-client:google-api-client-android:1.17.0-rc'
+    compile 'com.google.http-client:google-http-client-gson:1.17.0-rc'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}

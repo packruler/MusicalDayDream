@@ -1,0 +1,38 @@
+# view AndroidManifest.xml #generated:41
+-keep class com.packruler.musicaldaydream.release.DaydreamSettings { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.packruler.musicaldaydream.release.FirstTimeSetup { <init>(...); }
+
+# view AndroidManifest.xml #generated:17
+-keep class com.packruler.musicaldaydream.release.ListenerService { <init>(...); }
+
+# view AndroidManifest.xml #generated:7
+-keep class com.packruler.musicaldaydream.release.MusicalDaydreamService { <init>(...); }
+
+# view res/layout/activity_daydream_settings.xml #generated:11
+# view res/layout/initial_setup.xml #generated:98
+-keep class com.packruler.musicaldaydream.release.SettingsFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.packruler.musicaldaydream.release.StartDreaming { <init>(...); }
+
+# onClick res/layout/initial_setup.xml #generated:81
+-keepclassmembers class * { *** launchDaydreamSettings(...); }
+
+# onClick res/layout/initial_setup.xml #generated:41
+-keepclassmembers class * { *** launchSecuritySettings(...); }
+
+# onClick res/layout/authorization_activity.xml #generated:37
+-keepclassmembers class * { *** linkToMarket(...); }
+
+# onClick res/layout/musical_daydream.xml #generated:210
+# onClick res/layout/musical_daydream.xml #generated:223
+-keepclassmembers class * { *** playPause(...); }
+
+# onClick res/layout/musical_daydream.xml #generated:199
+-keepclassmembers class * { *** skipBack(...); }
+
+# onClick res/layout/musical_daydream.xml #generated:235
+-keepclassmembers class * { *** skipForward(...); }
+

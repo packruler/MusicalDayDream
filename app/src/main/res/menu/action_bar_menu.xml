@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:MusicalDaydream="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/launch_dream"
+        android:title="Start Dreaming"
+        MusicalDaydream:showAsAction="never" />
+
+    <item android:id="@+id/launch_security_settings"
+        android:title="Notification Access Settings"
+        MusicalDaydream:showAsAction="never" />
+
+    <item android:id="@+id/launch_dream_settings"
+        android:title="@string/launch_dream_settings"
+        MusicalDaydream:showAsAction="never" />
+</menu>

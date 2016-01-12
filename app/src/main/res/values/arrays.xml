@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="theme_color_preference">
+        <item name="0">Default Framework</item>
+        <item name="1">Album Art Palette</item>
+        <item name="2">Holo</item>
+        <item name="3">White</item>
+        <item name="4">Green</item>
+        <item name="5">Red</item>
+        <item name="6">Yellow</item>
+        <item name="7">Purple</item>
+    </string-array>
+
+    <string-array name="temp_blacklist_preference">
+        <item name="0">android</item>
+    </string-array>
+
+    <string-array name="screen_timeouts">
+        <item name="0">Never</item>
+        <item name="1">15 seconds</item>
+        <item name="2">30 seconds</item>
+        <item name="3">45 seconds</item>
+        <item name="4">1 minute</item>
+        <item name="5">2 minutes</item>
+        <item name="6">5 minutes</item>
+    </string-array>
+
+    <string-array name="sort_order_options">
+        <item name="0">Alphabetical</item>
+        <item name="1">Most Recent</item>
+        <item name="2">Popularity</item>
+        <item name="3">Trending</item>
+    </string-array>
+
+    <string-array name="boolean_list">
+        <item name="0">Yes</item>
+        <item name="1">No</item>
+    </string-array>
+
+    <string-array name="double_tap_array">
+        <item name="0">Toggle Screen Fade</item>
+        <item name="1">Stop Dreaming</item>
+    </string-array>
+
+    <string-array name="ignore_running_time">
+        <item name="plex">com.plexapp.plex</item>
+        <item name="comedy">com.vmn.android.comedycentral</item>
+        <item name="pandora">com.pandora.android</item>
+    </string-array>
+
+    <string-array name="non_square_art">
+        <item name="plex">com.plexapp.plex</item>
+        <item name="comedy">com.vmn.android.comedycentral</item>
+    </string-array>
+
+</resources>
